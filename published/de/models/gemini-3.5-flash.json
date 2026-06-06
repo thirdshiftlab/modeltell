@@ -1,0 +1,521 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "gemini-3.5-flash",
+    "label": "Gemini 3.5 Flash",
+    "provider": "openrouter",
+    "api_model": "google/gemini-3.5-flash",
+    "tier": "mid",
+    "family": "gemini-flash",
+    "version": "3.5"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 3775,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.635,
+    "avg_sentence_length": 14.5,
+    "sentence_length_std_dev": 13.9
+  },
+  "radar": {
+    "tricolon_density": 2.71,
+    "hedge_density": 0.27,
+    "power_verb_density": 6.51,
+    "pseudo_inclusivity": 0.81,
+    "escalation_patterns": 8.14,
+    "future_filler": 0,
+    "em_dash_frequency": 10.1,
+    "formatting_density": 41.3
+  },
+  "top_words": [
+    {
+      "word": "marketing-ausgaben",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "datenanalyst",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "umsatz-",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "trendprognosen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "richtungsweisende",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ki-vorhersagen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "marketingkampagnen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "hochprofitabel",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "int",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "umsatzhebel",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "prädiktiver",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "nachfrageprognosen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "marketing-tools",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "truth",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "marketing-effizienz",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ki-segmentierte",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ungenutzter",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "budget-potenziale",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "lieblings-playlists",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "verlasse",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "focus",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "mobiles",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "modernstem",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "hybrid-active-noise-cancelling",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "blendest",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "over-ear",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "tech-wald",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "rasanten",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "kristallisiert",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "spannendste",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "tech-geschichte",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "epizentrum",
+      "frequency_per_1k": 0.93,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "philosophischen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "wirtschaftlichen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "glaubenskriegs",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "behüteten",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "weltweite",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "inmitten",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ohrenbetäubenden",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "grundrauschens",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "machtkampfes",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "geladene",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ki-giganten",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "tech-festungen",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "kollaborative",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "epische",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "monopole",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "ungezähmte",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "kollektivs",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    },
+    {
+      "word": "entsch",
+      "frequency_per_1k": 0.47,
+      "distinctiveness": 44.61,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 27,
+      "per_1k_words": 7.33,
+      "ci_low": 4.74,
+      "ci_high": 10.14,
+      "q_value": 0.0278,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Trends – vollautomatisch",
+        "tut – dank",
+        "lebendig – doch",
+        "Produktivität – überall",
+        "heraus – willkommen"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 25,
+      "per_1k_words": 6.78,
+      "ci_low": 3.42,
+      "ci_high": 11.42,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "(Return on Ad Spend)",
+        "(Beschreibungen)",
+        "(+40 % im Vergleich zum Vormonat)",
+        "(vor allem getrieben von unseren Team-Plänen)",
+        "(TL;DR)"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 24,
+      "per_1k_words": 6.51,
+      "ci_low": 3.59,
+      "ci_high": 9.55,
+      "q_value": 0.5699,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "optimiert",
+        "Optimieren",
+        "revolutionieren",
+        "Maximiere",
+        "Steigerung"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 10,
+      "per_1k_words": 2.71,
+      "ci_low": 1.14,
+      "ci_high": 4.36,
+      "q_value": 0.0278,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Shopsysteme, ERP und Marketing",
+        "OpenAI, Microsoft und Google",
+        "OpenAI, Google und Co",
+        "Zahlen, Fortschritten und Herausforderungen",
+        "zielgerichtet, transparent und mit"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 3,
+      "per_1k_words": 0.81,
+      "ci_low": 0,
+      "ci_high": 1.81,
+      "q_value": 0.3329,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur versprechen, sondern ",
+        "nicht nur um ein zeitgemäßes Design, sondern ",
+        "nicht nur repräsentiert, sondern "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 2,
+      "per_1k_words": 0.54,
+      "ci_low": 0,
+      "ci_high": 1.41,
+      "q_value": 0.8461,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Egal, ob du gerade deine erste Zeile HTML schreibst oder b",
+        "Egal, ob du gerade deine ersten Zeilen Code schreibst oder j"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.27,
+      "ci_low": 0,
+      "ci_high": 0.88,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". durch 9"
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.27,
+      "ci_low": 0,
+      "ci_high": 0.91,
+      "q_value": 0.0162,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Stellen Sie sich vor"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.27,
+      "ci_low": 0,
+      "ci_high": 0.82,
+      "q_value": 0.044,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 3,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 1,
+    "Other": 86
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 1,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 89
+  },
+  "structure": {
+    "bullet_point_ratio": 0.17,
+    "bold_per_1k_words": 26.8,
+    "headers_per_1k_words": 2.6,
+    "exclamations_per_1k_words": 3.4,
+    "em_dashes_per_1k_words": 10.1,
+    "colons_per_1k_words": 28.1
+  }
+}

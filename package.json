@@ -1,0 +1,34 @@
+{
+  "name": "modeltell",
+  "version": "0.1.0",
+  "description": "Computational linguistics analysis of LLM-generated text - tracking lexical and syntactic fingerprints across models and versions",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "modeltell": "./dist/cli/check.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "run:all": "tsx src/runner/runner.ts",
+    "run:anthropic": "ONLY_MODELS=claude-opus-4.8,claude-opus-4.7,claude-opus-4.6,claude-sonnet-4.6 tsx src/runner/runner.ts",
+    "run:openai": "ONLY_MODELS=gpt-5.5,gpt-5.4-mini tsx src/runner/runner.ts",
+    "run:google": "ONLY_MODELS=gemini-3.1-pro,gemini-3.5-flash tsx src/runner/runner.ts",
+    "run:opensource": "ONLY_MODELS=llama-4-maverick,deepseek-v4-pro,deepseek-v3.2,mistral-large-2512,qwen3.7-max tsx src/runner/runner.ts",
+    "analyze:lexical": "tsx src/analysis/lexical.ts",
+    "analyze:syntactic": "tsx src/analysis/syntactic.ts",
+    "publish:data": "tsx src/publish/publish.ts",
+    "check": "tsx src/cli/check.ts check",
+    "build:cli": "tsc -p tsconfig.cli.json && chmod +x dist/cli/check.js",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build:cli",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

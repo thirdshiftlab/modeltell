@@ -1,0 +1,541 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "claude-opus-4.8",
+    "label": "Claude Opus 4.8",
+    "provider": "openrouter",
+    "api_model": "anthropic/claude-opus-4.8",
+    "tier": "frontier",
+    "family": "claude-opus",
+    "version": "4.8"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 14852,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.412,
+    "avg_sentence_length": 13,
+    "sentence_length_std_dev": 9.3
+  },
+  "radar": {
+    "tricolon_density": 4.34,
+    "hedge_density": 0.07,
+    "power_verb_density": 3.59,
+    "pseudo_inclusivity": 0.55,
+    "escalation_patterns": 14.700000000000001,
+    "future_filler": 0.07,
+    "em_dash_frequency": 17,
+    "formatting_density": 32.9
+  },
+  "top_words": [
+    {
+      "word": "tausende",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "datenpunkte",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "programmierkenntnisse",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "prognostizieren",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "lagerbedarf",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "datenteam",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "bestellungen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "bestandsentscheidungen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "absatzprognosen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "lieferengpässe",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "statistikstudium",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "voraussetzen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "tabellen-wüsten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "tool-daten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "live-demo",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "familienchaos",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "summender",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "deadline-woche",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "hochpräzise",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "hintergrundgeräuschen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "memory-schaum-polstern",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "dezentes",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "geräuschkulissen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "ansprechbar",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "kaffeeplausch",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "video-meeting",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "konzentrationsphasen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "hörvergnügen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "ergonomisches",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "druckstellen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "mikrofontechnologie",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "gestochen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "scharf",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "gesprächspartner",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "lauert",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "klappernde",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "tastaturen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "nebentisch",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "mitreden",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "videokonferenz",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "gewichtsverhältnis",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "edle",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "zurückhaltendes",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "fügen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "kocht",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "gedeihen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "verfechter",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "quelloffener",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "formieren",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    },
+    {
+      "word": "befürworter",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.36,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 205,
+      "per_1k_words": 13.89,
+      "ci_low": 12.47,
+      "ci_high": 15.27,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Entscheidungen – in",
+        "auszahlen – ganz",
+        "Daten – bevor",
+        "Lieferengpässe – und",
+        "schlummern – von"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 64,
+      "per_1k_words": 4.34,
+      "ci_low": 3.3,
+      "ci_high": 5.58,
+      "q_value": 0.7258,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Produkte, Kanäle und Kundensegmente",
+        "Nachfrage, Lagerbedarf und Customer",
+        "Bestellungen, Warenkörbe und Kundenverhalten",
+        "Shop, Marketing und Lager",
+        "Familienchaos, Straßenlärm und summender"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 53,
+      "per_1k_words": 3.59,
+      "ci_low": 2.64,
+      "ci_high": 4.66,
+      "q_value": 0.0487,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "steigern",
+        "optimieren",
+        "stärkt",
+        "stärkten",
+        "Skalierbarkeit"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 24,
+      "per_1k_words": 1.63,
+      "ci_low": 0.89,
+      "ci_high": 2.59,
+      "q_value": 0.5772,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(max. 30 Zeichen)",
+        "(max. 90 Zeichen)",
+        "(+40 % zum Vormonat)",
+        "(+40 % gegenüber Vormonat)",
+        "(50-300 Entwickler:innen)"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 12,
+      "per_1k_words": 0.81,
+      "ci_low": 0.35,
+      "ci_high": 1.38,
+      "q_value": 0.2597,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur ökologisch überlegen, sondern auch ",
+        "nicht nur loyal bleiben, sondern ",
+        "nicht nur unsere Position im Großkundensegment, sondern ",
+        "nicht nur eine hohe Kundenbindung, sondern auch ",
+        "nicht nur visuell überzeugt, sondern auch "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 6,
+      "per_1k_words": 0.41,
+      "ci_low": 0.07,
+      "ci_high": 0.8,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "ob klappernde Tastaturen, Straßenlärm oder d",
+        "ob eine gute Idee gehört wird oder u",
+        "Ob technische Hürde, fehlende Zeit oder e",
+        "Egal, ob du gerade deine ersten Zeilen Code schreibst oder s",
+        "Ob du fragst oder a"
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "severity": "medium",
+      "count": 2,
+      "per_1k_words": 0.14,
+      "ci_low": 0,
+      "ci_high": 0.33,
+      "q_value": 0.2019,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Stellen Sie sich vor"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.07,
+      "ci_low": 0,
+      "ci_high": 0.21,
+      "q_value": 0.2935,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". Durch m"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "severity": "high",
+      "count": 1,
+      "per_1k_words": 0.07,
+      "ci_low": 0,
+      "ci_high": 0.21,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "zukunftssicher"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.07,
+      "ci_low": 0,
+      "ci_high": 0.21,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 0,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 90
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 1,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 89
+  },
+  "structure": {
+    "bullet_point_ratio": 0.13,
+    "bold_per_1k_words": 17.2,
+    "headers_per_1k_words": 5.3,
+    "exclamations_per_1k_words": 1.8,
+    "em_dashes_per_1k_words": 17,
+    "colons_per_1k_words": 18.7
+  }
+}

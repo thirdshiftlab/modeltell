@@ -1,0 +1,55 @@
+name: Publish data API to GitHub Pages
+
+# Serves the published/ directory as a static JSON API. Datasets are namespaced
+# by corpus language, e.g.
+#   https://<owner>.github.io/modeltell/locales.json          (discovery)
+#   https://<owner>.github.io/modeltell/en/index.json
+#   https://<owner>.github.io/modeltell/en/models/gpt-5.5.json
+#   https://<owner>.github.io/modeltell/de/index.json
+
+on:
+  push:
+    branches: [main]
+    paths: ["published/**"]
+  workflow_dispatch:
+
+# Allow the workflow to deploy to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One concurrent deploy; don't cancel an in-progress one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add a tiny landing page next to the JSON
+        run: |
+          cat > published/README.md <<'EOF'
+          # Modeltell - Data API
+
+          Static JSON, regenerated monthly. Datasets are namespaced by language:
+          start at `locales.json`, then `en/index.json` (or `de/index.json`).
+          Source: https://github.com/thirdshiftlab/modeltell
+          EOF
+
+      - uses: actions/configure-pages@v5
+
+      - name: Upload published/ as the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: published
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

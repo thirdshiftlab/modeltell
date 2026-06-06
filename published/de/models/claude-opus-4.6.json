@@ -1,0 +1,512 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "claude-opus-4.6",
+    "label": "Claude Opus 4.6",
+    "provider": "openrouter",
+    "api_model": "anthropic/claude-opus-4.6",
+    "tier": "frontier",
+    "family": "claude-opus",
+    "version": "4.6"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 16788,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.398,
+    "avg_sentence_length": 12.3,
+    "sentence_length_std_dev": 10.2
+  },
+  "radar": {
+    "tricolon_density": 3.17,
+    "hedge_density": 0.3,
+    "power_verb_density": 2.75,
+    "pseudo_inclusivity": 0.36,
+    "escalation_patterns": 15.15,
+    "future_filler": 0,
+    "em_dash_frequency": 19.1,
+    "formatting_density": 40.7
+  },
+  "top_words": [
+    {
+      "word": "online-händlern",
+      "frequency_per_1k": 0.32,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "analysten-teams",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "verstecktes",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "werbebudgets",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "excel-analysen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "verkaufschancen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "abwanderungsrisiken",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "sortimentslücken",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "marktplatz-mix",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "konnektoren",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "geführtes",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "preismodell",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "rechnet",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "warenkorbdaten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "zeitaufwand",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "excel-exporten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "datenaufbereitung",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "berichte",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "entwicklerteam",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "monatelange",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "silentpro",
+      "frequency_per_1k": 0.96,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "anc-",
+      "frequency_per_1k": 0.85,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "wohlverdienten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "feierabend-playlist-moment",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "-lärm",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "fenster",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "high-fidelity-treiber",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "produktivste",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "ultraleichtes",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "memory-foam-ohrpolstern",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "windfilter",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "schnellladen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "zusammenklappbar",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "hardcase",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "verstaut",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "überallhin",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "deep-work-sessions",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "verbündeten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "waschmaschine",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "abzunehmen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "beamforming",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "memory-foam-ohrpolster",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "proteinleder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "schmiegen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "mitternachtsschwarz",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "sandstein",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "salbeigrün",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "erhältlich",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "komplette",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    },
+    {
+      "word": "ladepause",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.19,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 242,
+      "per_1k_words": 14.49,
+      "ci_low": 13.09,
+      "ci_high": 15.96,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Umsatzwachstum – vollautomatisch",
+        "Echtzeit – und",
+        "Analysen – damit",
+        "Umsatzwachstum – automatisch",
+        "bleibt – und"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 53,
+      "per_1k_words": 3.17,
+      "ci_low": 2.28,
+      "ci_high": 4.1,
+      "q_value": 0.0799,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Kundenverhalten, Warenkörbe und Kaufmuster",
+        "Verkaufschancen, Abwanderungsrisiken und Sortimentslücken",
+        "Kaufverhalten, Warenkorbdaten und Markttrends",
+        "Shopware, WooCommerce und alle",
+        "Musik, Podcasts und Calls"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 46,
+      "per_1k_words": 2.75,
+      "ci_low": 1.91,
+      "ci_high": 3.62,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "maximieren",
+        "transformiert",
+        "Skalierung",
+        "skalieren",
+        "beschleunigt"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 34,
+      "per_1k_words": 2.04,
+      "ci_low": 1.05,
+      "ci_high": 3.15,
+      "q_value": 0.9348,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(von 847 auf 229)",
+        "(von 47 auf 13 jährlich hochgerechnet)",
+        "(+40 % ggü. Vormonat)",
+        "(bei aktuellem Burn)",
+        "(5–50 Seats)"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 11,
+      "per_1k_words": 0.66,
+      "ci_low": 0.3,
+      "ci_high": 1.05,
+      "q_value": 0.1299,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur die KI-Branche spaltet, sondern ",
+        "nicht nur ersetzt, sondern ",
+        "nicht nur pitched, sondern ",
+        "nicht nur zu messen, sondern ",
+        "nicht nur für unsere beiden Unternehmen, sondern "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 6,
+      "per_1k_words": 0.36,
+      "ci_low": 0.11,
+      "ci_high": 0.67,
+      "q_value": 0.9447,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Ob Shopify, WooCommerce, Amazon oder M",
+        "Ob Café-Lärm, Baustelle vor dem Fenster oder M",
+        "ob Straßenlärm, Gespräche im Café oder d",
+        "ob im Home-Office, im Co-Working-Space oder i",
+        "ob eine Technologie in der Nische bleibt oder M"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 5,
+      "per_1k_words": 0.3,
+      "ci_low": 0.07,
+      "ci_high": 0.55,
+      "q_value": 0.0531,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Im Kern",
+        "im Kern"
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorische Frage als Hook",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.06,
+      "ci_low": 0,
+      "ci_high": 0.19,
+      "q_value": 0.3463,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Was heißt das für uns?"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 3,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 87
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 2,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 88
+  },
+  "structure": {
+    "bullet_point_ratio": 0.14,
+    "bold_per_1k_words": 21.6,
+    "headers_per_1k_words": 8,
+    "exclamations_per_1k_words": 1,
+    "em_dashes_per_1k_words": 19.1,
+    "colons_per_1k_words": 20.5
+  }
+}

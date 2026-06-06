@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "method": "Manual precision audit. For each audited pattern we drew distinct regex matches from the run 2026-06-03_v2 corpus, read each in context, and labelled it a true positive (the intended stylistic construction is genuinely present) or a false positive.",
+  "caveats": [
+    "Single annotator (project author); no inter-annotator agreement, so treat as a convergent sanity check, not a gold-standard evaluation.",
+    "Precision only. Recall (patterns the regex MISSES) is not yet measured — that requires exhaustive human reading and is future work.",
+    "Audited 6 of 15 patterns and ~5–8 matches each; rare patterns lack the sample size for a stable estimate.",
+    "Counts are operationalized against each pattern's stated construct (e.g. 'power_verb_stacking' is scored as 'a power verb is present', even though the label implies clustering)."
+  ],
+  "patterns": [
+    {
+      "id": "not_just_but",
+      "label": "Not-Just-But Escalation",
+      "sample_size": 8,
+      "true_positives": 8,
+      "precision": 1.0,
+      "note": "Clean. Every match is the genuine 'not just X, but Y' escalation.",
+      "false_positive_examples": []
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "sample_size": 8,
+      "true_positives": 8,
+      "precision": 1.0,
+      "note": "Every match is a real power verb (optimize, accelerate, drive, revolutionize, unlock, amplify, transform, boost). BUT the regex matches single verbs, so this measures power-verb DENSITY, not the 3-in-a-row 'stacking' the label implies.",
+      "false_positive_examples": []
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "sample_size": 5,
+      "true_positives": 4,
+      "precision": 0.8,
+      "note": "Mostly clean ('at its core', 'at the heart of', 'fundamentally changed'); one ambiguous case.",
+      "false_positive_examples": []
+    },
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "sample_size": 8,
+      "true_positives": 6,
+      "precision": 0.75,
+      "note": "Fires inside longer enumerations: a 4+-item list ('Shopify, Amazon, wholesale, and ad platform') is counted as a rule-of-three. Over-counts in list-heavy copy.",
+      "false_positive_examples": [
+        "Pull Shopify, Amazon, wholesale, and ad platform data (4-item list)",
+        "from your storefront, marketplaces, ads, and fulfillment systems (4-item list)"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "sample_size": 8,
+      "true_positives": 6,
+      "precision": 0.75,
+      "note": "Catches em/en-dashes used as list/definition separators in bullet points, not only dramatic mid-sentence pivots.",
+      "false_positive_examples": [
+        "- Quick charge — 10 minutes gives you 3 hours (spec/definition dash)",
+        "- Intuitive touch controls — adjust volume (bullet definition dash)"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "sample_size": 8,
+      "true_positives": 0,
+      "precision": 0.0,
+      "note": "Worst performer. The regex matches ANY parenthetical; in this corpus the sample was dominated by functional annotations like '(30 characters max)' and '(24 chars)' from ad-copy prompts — none were rhetorical asides. Needs a far tighter definition or removal.",
+      "false_positive_examples": [
+        "(30 characters max)",
+        "(90 chars)",
+        "(24 chars)",
+        "(26 chars)"
+      ]
+    }
+  ],
+  "summary": {
+    "audited_patterns": 6,
+    "total_sampled": 45,
+    "total_true_positives": 32,
+    "micro_precision": 0.711
+  }
+}

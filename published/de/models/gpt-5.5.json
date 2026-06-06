@@ -1,0 +1,495 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "gpt-5.5",
+    "label": "GPT-5.5",
+    "provider": "openrouter",
+    "api_model": "openai/gpt-5.5",
+    "tier": "frontier",
+    "family": "gpt",
+    "version": "5.5"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 15072,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.378,
+    "avg_sentence_length": 14.2,
+    "sentence_length_std_dev": 10.1
+  },
+  "radar": {
+    "tricolon_density": 11.61,
+    "hedge_density": 0,
+    "power_verb_density": 7.14,
+    "pseudo_inclusivity": 0.53,
+    "escalation_patterns": 8.94,
+    "future_filler": 0,
+    "em_dash_frequency": 9,
+    "formatting_density": 32.4
+  },
+  "top_words": [
+    {
+      "word": "e-commerce-teams",
+      "frequency_per_1k": 0.22,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "kaufbarrieren",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "sortimente",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "crm-",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "marketingtools",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "topseller",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "kampagnendaten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "einkauf",
+      "frequency_per_1k": 0.22,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "bündelt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "unübersichtlicher",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "shop-systeme",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "warenwirtschaft",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "hinführt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "abgestimmter",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "over-ear-design",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "memory-foam-polstern",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "feierabend-playlisten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "mobil",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "zugabteil",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "playlists",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "lieblingsmusik",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "mikrofon-system",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "lebhaften",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "arbeitsbegleiter",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "remote-professionals",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "fokus-playlists",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "lebhaft",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "zugeht",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "anhaltenden",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "ausdauernder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "ladefunktion",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "ruhemodus",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "stilvoll",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "stattfindet",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "polierter",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "produktintegration",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "wettbewerbsvorsprung",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "gemeinwohl",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "ki-ära",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "bruchlinien",
+      "frequency_per_1k": 0.22,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "teilhabe",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "datenvorteilen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "wettlauf",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "wettstreit",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "open-source-systeme",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "experimentierfreude",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "einzelkämpfer",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "leitbilder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "hinzuschauen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    },
+    {
+      "word": "beruf",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.39,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 174,
+      "per_1k_words": 11.61,
+      "ci_low": 10.02,
+      "ci_high": 13.39,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "automatisiert, verständlich und speziell",
+        "Umsatztreiber, Kaufbarrieren und Trends",
+        "Kampagnen, Sortimente und Lagerbestände",
+        "Topseller, Kaufabbrüche und Wachstumspotenziale",
+        "Einkauf, Marketing und Geschäftsführung"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 109,
+      "per_1k_words": 7.27,
+      "ci_low": 5.88,
+      "ci_high": 9.13,
+      "q_value": 0.0162,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Handlungsempfehlungen – automatisiert",
+        "Echtzeit – ohne",
+        "Entscheidungen – mit",
+        "automatisch – bevor",
+        "Dashboards – für"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 107,
+      "per_1k_words": 7.14,
+      "ci_low": 5.63,
+      "ci_high": 8.55,
+      "q_value": 0.1836,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Optimieren",
+        "skalierbar",
+        "optimieren",
+        "steigern",
+        "Optimierungspotenziale"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 25,
+      "per_1k_words": 1.67,
+      "ci_low": 1.1,
+      "ci_high": 2.35,
+      "q_value": 0.6344,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "nicht nur gute Beratung leisten, sondern auch ",
+        "nicht nur eine bessere Idee, sondern ",
+        "nicht nur „weniger schlecht“, sondern ",
+        "nicht nur „User Engagement“ optimieren, sondern ",
+        "nicht nur Tickets schiebt, sondern "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 8,
+      "per_1k_words": 0.53,
+      "ci_low": 0.21,
+      "ci_high": 0.91,
+      "q_value": 0.8407,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Ob Homeoffice, Coworking-Space oder Z",
+        "Egal, ob du in einem Team arbeitest oder e",
+        "ob ein Framework viele Entscheidungen vorgibt oder e",
+        "ob React oder V",
+        "ob diese Freiheit im Projekt eher hilft oder z"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 4,
+      "per_1k_words": 0.27,
+      "ci_low": 0.06,
+      "ci_high": 0.51,
+      "q_value": 0.0403,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "(**+40 %** MoM)",
+        "(m/w/d)",
+        "(all genders)"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 2,
+      "per_1k_words": 0.13,
+      "ci_low": 0,
+      "ci_high": 0.35,
+      "q_value": 0.5403,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". Durch o",
+        ". Durch K"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 6,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 84
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 4,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 86
+  },
+  "structure": {
+    "bullet_point_ratio": 0.2,
+    "bold_per_1k_words": 14.8,
+    "headers_per_1k_words": 3.4,
+    "exclamations_per_1k_words": 0.5,
+    "em_dashes_per_1k_words": 9,
+    "colons_per_1k_words": 21.2
+  }
+}

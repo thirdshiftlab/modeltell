@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-05T18:55:44.042Z",
+  "default": "en",
+  "locales": [
+    {
+      "locale": "de",
+      "index": "de/index.json"
+    },
+    {
+      "locale": "en",
+      "index": "en/index.json"
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "gpt-5.4-mini",
+    "label": "GPT-5.4 Mini",
+    "provider": "openrouter",
+    "api_model": "openai/gpt-5.4-mini",
+    "tier": "mid",
+    "family": "gpt-mini",
+    "version": "5.4"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 12956,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.38,
+    "avg_sentence_length": 14.6,
+    "sentence_length_std_dev": 11.4
+  },
+  "radar": {
+    "tricolon_density": 10.65,
+    "hedge_density": 0.08,
+    "power_verb_density": 6.99,
+    "pseudo_inclusivity": 0.16,
+    "escalation_patterns": 7.46,
+    "future_filler": 0,
+    "em_dash_frequency": 6.6,
+    "formatting_density": 34.3
+  },
+  "top_words": [
+    {
+      "word": "datenanalysen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "langwieriger",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "smarteres",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "optimierungschancen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "zeitaufwendiger",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "margenhebel",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "conversion-chancen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "treten",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "detailreiche",
+      "frequency_per_1k": 0.26,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "kraftvolle",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "bässe",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "aufdringlich",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "bewegungsfreiheit",
+      "frequency_per_1k": 0.26,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "langlebige",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "sessions",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "sprachübertragung",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "sprachkonferenzen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "anrufe",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "unterbrechen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "aufgeräumt",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "lebensstil",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "satten",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "feinen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "kürzester",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "verstellbarer",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "aufzutragen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "zuverlässiges",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "drehen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "verteidigen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "schnelllebige",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "community-power",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "kommerziellem",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "marktlogik",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "drehende",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "spitzt",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "härtesten",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "nahbar",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "teamgeist",
+      "frequency_per_1k": 0.26,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "employerbranding",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "google-ads-schlagzeilen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "smartem",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "effektives",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "lernspaß",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "sprachniveau",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "kursen",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "zugriffe",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "sicherheitsereignisse",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "reputationsschäden",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "weitergeleitet",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    },
+    {
+      "word": "unterstützten",
+      "frequency_per_1k": 0.13,
+      "distinctiveness": 12.45,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 137,
+      "per_1k_words": 10.65,
+      "ci_low": 8.73,
+      "ci_high": 12.85,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Produkte, Kanäle und Kampagnen",
+        "Prozesse, Budgets und Margen",
+        "Trends, Auffälligkeiten und Wachstumspotenziale",
+        "Sortiment, Marketing und Operations",
+        "Umsatzpotenziale, Risiken und Optimierungschancen"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 90,
+      "per_1k_words": 6.99,
+      "ci_low": 5.39,
+      "ci_high": 8.54,
+      "q_value": 0.2559,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Skalierbar",
+        "Optimieren",
+        "optimiert",
+        "Optimierungschancen",
+        "ermöglicht"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 67,
+      "per_1k_words": 5.21,
+      "ci_low": 4.19,
+      "ci_high": 6.38,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Datenanalysen – speziell",
+        "Handlungsempfehlungen – mit",
+        "Hintergrund – damit",
+        "möchten – ohne",
+        "Wiedergabe – ideal"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 29,
+      "per_1k_words": 2.25,
+      "ci_low": 1.49,
+      "ci_high": 3.05,
+      "q_value": 0.0718,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "nicht nur gut klingt, sondern ",
+        "nicht nur dem Unternehmen, sondern ",
+        "nicht nur die Ergebnisse zählen, sondern auch ",
+        "nicht nur die Nachfrage nach nachhaltigen Verpackungslösungen, sondern ",
+        "nicht nur ökologisch überzeugt, sondern auch "
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 7,
+      "per_1k_words": 0.54,
+      "ci_low": 0.16,
+      "ci_high": 1,
+      "q_value": 0.0612,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(+40 %)",
+        "(**+40 %** zum Vormonat)",
+        "(+40 % gegenüber dem Vormonat)",
+        "(m/w/d)",
+        "(w/m/d)"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 3,
+      "per_1k_words": 0.23,
+      "ci_low": 0,
+      "ci_high": 0.52,
+      "q_value": 0.9239,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". Durch d",
+        ".\n\nDurch d"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.26,
+      "q_value": 0.1875,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Egal, ob du gerade erst mit DevOps in Berührung kommst oder d"
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.25,
+      "q_value": 0.472,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Stellen Sie sich eine Welt vor"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.25,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 6,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 84
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 0,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 90
+  },
+  "structure": {
+    "bullet_point_ratio": 0.2,
+    "bold_per_1k_words": 18.4,
+    "headers_per_1k_words": 2.3,
+    "exclamations_per_1k_words": 0.4,
+    "em_dashes_per_1k_words": 6.6,
+    "colons_per_1k_words": 17.7
+  }
+}

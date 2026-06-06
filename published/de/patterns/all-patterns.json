@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "locale": "de",
+    "description": "Modeltell - Muster-Definitionen (Deutsch). Deutsch-native syntaktische Konstruktionen und lexikalische Watchlists, nicht aus dem Englischen übersetzt."
+  },
+
+  "syntactic_patterns": [
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "description": "Dreiteilige Aufzählungen, oft mit ansteigender Komplexität oder Steigerung",
+      "examples": ["innovativ, skalierbar und zukunftssicher", "schneller, smarter und effizienter", "planen, umsetzen und liefern"],
+      "regex": "\\b([A-Za-zÄÖÜäöüß]+),\\s+([A-Za-zÄÖÜäöüß]+)\\s+und\\s+([A-Za-zÄÖÜäöüß]+)\\b",
+      "severity": "high",
+      "notes": "LLMs übernutzen Trikola im Deutschen wie im Englischen."
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "description": "Eröffnung mit „(Egal,) ob X oder Y“, um Publikums-Inklusivität vorzutäuschen",
+      "examples": ["Egal, ob Start-up oder Konzern", "Ob Anfänger oder Profi", "Ob Sie skalieren oder optimieren möchten"],
+      "regex": "\\b(?:egal,?\\s+)?ob\\s+\\S[^.?!]{2,45}?\\s+oder\\s+\\S",
+      "severity": "critical",
+      "notes": "Fast ausschließlich eine LLM-Konstruktion in deutscher Werbe-/Business-Sprache."
+    },
+    {
+      "id": "hedge_opening",
+      "label": "Absichernde Eröffnung",
+      "description": "Weichmacher-Floskeln, die keine Information hinzufügen",
+      "examples": ["Es ist wichtig zu betonen, dass", "Es sei darauf hingewiesen, dass", "Es gilt festzuhalten, dass"],
+      "regex": "\\bes\\s+(?:ist\\s+(?:wichtig|entscheidend|hervorzuheben|erwähnenswert)|sei\\s+(?:erwähnt|angemerkt|betont|darauf\\s+hingewiesen)|gilt\\s+(?:festzuhalten|zu\\s+beachten))\\b",
+      "severity": "high",
+      "notes": "Füll-Konstruktion. Menschen nutzen sie selten, LLMs ständig."
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "description": "Pseudo-dramatische Kontrast-Konstruktion",
+      "examples": ["nicht nur ein Werkzeug, sondern ein Partner", "nicht nur effizient, sondern auch nachhaltig", "geht nicht nur um Wachstum, sondern um Wandel"],
+      "regex": "\\bnicht\\s+nur\\s+[^.?!]{2,60}?,?\\s+sondern\\s+(?:auch\\s+)?",
+      "severity": "high",
+      "notes": "Klassisches LLM-Upsell-Muster. Die Häufigkeit ist der Tell."
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "description": "Sätze, die pseudo-autoritativ mit „Durch …“ oder „Indem …“ beginnen",
+      "examples": ["Durch den Einsatz modernster Technologie", "Indem Sie Ihre Prozesse optimieren", "Durch die Kombination von Innovation und Erfahrung"],
+      "regex": "(?:^|[.!?]\\s+)(?:Durch|Indem)\\s+\\S",
+      "severity": "medium",
+      "notes": "Im Deutschen die Entsprechung zum englischen „By [verb]ing“-Opener."
+    },
+    {
+      "id": "landscape_world",
+      "label": "„In-der-heutigen-Welt“",
+      "description": "Eröffnung mit „In der heutigen [Adjektiv] Welt/Zeit/Landschaft“",
+      "examples": ["In der heutigen schnelllebigen digitalen Welt", "In der heutigen vernetzten Zeit", "In einer Welt, in der sich alles ständig wandelt"],
+      "regex": "\\bin\\s+(?:der\\s+heutigen|unserer\\s+heutigen)\\s+(?:[A-Za-zÄÖÜäöüß]+\\s+){0,2}(?:welt|zeit|ära|landschaft|geschäftswelt|wirtschaft|gesellschaft)|in\\s+einer\\s+welt,\\s+in\\s+der",
+      "severity": "critical",
+      "notes": "Eines der stärksten LLM-Signale. Nahezu null in guter menschlicher Werbung."
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "description": "Eröffnung mit „Stellen Sie sich vor“, um erzwungene Aufmerksamkeit zu erzeugen",
+      "examples": ["Stellen Sie sich eine Welt vor, in der", "Stellen Sie sich vor, Sie könnten", "Stell dir vor:"],
+      "regex": "(?:^|[.!?]\\s+)stell(?:en\\s+sie\\s+sich|\\s+dir)\\s+(?:einmal\\s+|mal\\s+)?(?:[^.?!]{2,40}?\\s+)?vor",
+      "severity": "medium",
+      "notes": "Auch von Menschen genutzt, aber LLMs greifen unverhältnismäßig oft dazu."
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "description": "Gedankenstrich für dramatischen Effekt mitten im Satz",
+      "examples": ["eine Plattform - unendliche Möglichkeiten", "das Ergebnis - 73 % weniger Vorfälle", "und das Beste daran - komplett kostenlos"],
+      "regex": "[A-Za-zÄÖÜäöüß]+\\s+[\\u2014\\u2013]\\s+[A-Za-zÄÖÜäöüß]+",
+      "severity": "medium",
+      "notes": "Gedankenstrich-Häufigkeit pro Wort unterscheidet Modelle stark."
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "description": "Häufung von Aktionsverben für künstliche Energie",
+      "examples": ["optimieren, skalieren und transformieren", "Wachstum vorantreiben und Effizienz maximieren", "Teams befähigen, zu innovieren"],
+      "regex": "\\b(?:optimier|maximier|transformier|revolutionier|ermöglich|vorantreib|beschleunig|skalier|steiger|freisetz|gestalt|effizienzsteiger|katapultier|befähig|stärk)[a-zäöüß]*",
+      "severity": "high",
+      "notes": "Dichte der Power-Verben pro 100 Wörter messen. LLMs häufen sie."
+    },
+    {
+      "id": "lets_dive",
+      "label": "„Lassen-Sie-uns“-Überleitung",
+      "description": "Umgangssprachliche Überleitungen, die Abschnittswechsel ankündigen",
+      "examples": ["Lassen Sie uns eintauchen", "Lassen Sie uns einen genaueren Blick werfen", "Lassen Sie uns das aufschlüsseln"],
+      "regex": "\\blass(?:en\\s+sie\\s+uns|t\\s+uns)\\s+(?:gemeinsam\\s+)?(?:einen\\s+(?:genaueren\\s+)?blick|eintauchen|erkunden|näher\\s+betrachten|aufschlüsseln|werfen)",
+      "severity": "medium",
+      "notes": "Überleitungs-Floskel. Menschen variieren Überleitungen stärker."
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Doppelpunkt-Liste",
+      "description": "Aufzählungen, die mit einem Doppelpunkt-Satz eingeleitet werden",
+      "examples": ["Folgende Vorteile erwarten Sie:", "Die wichtigsten Punkte im Überblick:", "Unser Ansatz ruht auf drei Säulen:"],
+      "regex": "\\b(?:folgende|diese|hier\\s+sind|im\\s+folgenden|die\\s+(?:wichtigsten|drei|vier|fünf))\\s+(?:[A-Za-zÄÖÜäöüß]+\\s+){0,2}(?:vorteile|punkte|gründe|aspekte|merkmale|schritte|säulen|prinzipien|bereiche)\\b[^:]{0,20}:",
+      "severity": "medium",
+      "notes": "Strukturmuster. Verhältnis von Doppelpunkt zu Liste je Modell vergleichen."
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorische Frage als Hook",
+      "description": "Fragen als Aufmerksamkeits-Köder, besonders am Anfang",
+      "examples": ["Kommt Ihnen das bekannt vor?", "Sind Sie bereit für den nächsten Schritt?", "Was bedeutet das für Ihr Unternehmen?"],
+      "regex": "\\b(?:klingt\\s+das\\s+bekannt|kommt\\s+ihnen\\s+das\\s+bekannt|sind\\s+sie\\s+bereit|was\\s+(?:bedeutet|heißt)\\s+das|haben\\s+sie\\s+sich\\s+(?:schon\\s+)?(?:einmal\\s+)?gefragt|kennen\\s+sie\\s+das)\\b[^?]{0,40}\\?",
+      "severity": "medium",
+      "notes": "Position verfolgen - LLMs häufen sie an Abschnittsanfängen."
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "description": "Abschluss mit vagen, zukunftsgerichteten Aussagen",
+      "examples": ["Die Zukunft ist jetzt", "Blicken wir gemeinsam nach vorn", "Gemeinsam in die Zukunft", "zukunftssicher aufgestellt"],
+      "regex": "\\b(?:die\\s+zukunft\\s+(?:ist|von|gehört|beginnt)|blicken\\s+wir\\s+(?:gemeinsam\\s+)?nach\\s+vorn|gemeinsam\\s+in\\s+die\\s+zukunft|zukunftssicher|zukunftsweisend|wegweisend)\\b",
+      "severity": "high",
+      "notes": "Bedeutungsleere Schluss-Floskel. Starkes LLM-Signal in Business-Inhalten."
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "description": "Erklärende Klammer-Einschübe, die über-erklären",
+      "examples": ["(und das ist gut so)", "(ja, wirklich)", "(denken Sie: Slack trifft Notion)"],
+      "regex": "\\([^)]{5,60}\\)",
+      "severity": "low",
+      "notes": "Häufigkeit verfolgen. Manche Modelle nutzen Klammern für falsche Nähe."
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "description": "Pseudo-Tiefe, die vorgibt, ein Wesen freizulegen",
+      "examples": ["Im Kern", "Im Grunde genommen", "Im Wesentlichen", "Letztlich geht es darum"],
+      "regex": "\\b(?:im\\s+kern|im\\s+grunde(?:\\s+genommen)?|im\\s+wesentlichen|letztlich\\s+geht\\s+es|im\\s+herzen|im\\s+endeffekt)\\b",
+      "severity": "medium",
+      "notes": "Signalisiert Tiefe, ohne sie zu liefern."
+    }
+  ],
+
+  "lexical_watchlist": {
+    "description": "Bekannte deutsche LLM-typische Begriffe. HINWEIS: Die Pipeline misst Häufigkeit und modellübergreifende Distinktivität (TF-IDF gegen das Aggregat aller Modelle), NICHT Übernutzung gegenüber einer menschlichen Baseline - ein gematchtes menschliches Korpus ist noch nicht implementiert.",
+    "power_words": [
+      "nahtlos", "ganzheitlich", "innovativ", "Innovation",
+      "zukunftsweisend", "zukunftssicher", "wegweisend",
+      "bahnbrechend", "revolutionär", "transformativ",
+      "leistungsstark", "hochmodern", "modernst",
+      "robust", "skalierbar", "maßgeschneidert", "passgenau",
+      "Mehrwert", "Synergie", "Synergien",
+      "optimieren", "maximieren", "ermöglichen",
+      "vorantreiben", "beschleunigen", "freisetzen",
+      "befähigen", "branchenführend", "erstklassig",
+      "herausragend", "beispiellos", "einzigartig",
+      "intuitiv", "effizient", "nachhaltig", "kundenzentriert", "wertschöpfend",
+      "Transformation", "Exzellenz", "Potenzial", "Potenziale",
+      "Wachstum", "Dynamik", "Agilität", "Skalierung",
+      "Effizienz", "Produktivität", "Wertschöpfung",
+      "reibungslos", "smarter", "intelligent", "datengetrieben",
+      "zukunftsfähig", "praxisnah", "nutzerzentriert"
+    ],
+    "filler_phrases": [
+      "Am Ende des Tages",
+      "in der heutigen Zeit",
+      "es ist wichtig zu betonen",
+      "wenn es darum geht",
+      "in puncto",
+      "vor diesem Hintergrund",
+      "in diesem Zusammenhang",
+      "unter dem Strich",
+      "an dieser Stelle",
+      "im Laufe der Zeit",
+      "gerade in Zeiten",
+      "mehr denn je",
+      "auf den Punkt gebracht",
+      "kurz gesagt",
+      "zusammenfassend lässt sich sagen",
+      "es lässt sich festhalten",
+      "der Schlüssel zum Erfolg",
+      "neue Maßstäbe setzen"
+    ],
+    "hedge_words": [
+      "vermutlich", "möglicherweise", "grundsätzlich",
+      "weitgehend", "tendenziell", "durchaus",
+      "gewissermaßen", "relativ", "generell",
+      "typischerweise", "potenziell", "mitunter",
+      "prinzipiell", "letztlich", "im Grunde", "im Wesentlichen",
+      "in gewisser Weise", "nicht selten", "oftmals"
+    ],
+    "connector_overuse": [
+      "darüber hinaus", "zudem", "des Weiteren",
+      "folglich", "dementsprechend", "nichtsdestotrotz",
+      "gleichwohl", "demnach", "somit", "ferner", "überdies", "insofern",
+      "außerdem", "zusätzlich", "ergänzend", "abschließend",
+      "insgesamt", "gleichzeitig", "nicht zuletzt"
+    ]
+  },
+
+  "analysis_config": {
+    "stopwords_source": "german",
+    "min_word_length": 3,
+    "ngram_range": [1, 3],
+    "notes": "ZUKÜNFTIG (nicht implementiert): TF-IDF gegen ein gematchtes menschliches deutsches Vergleichskorpus, um 'Übernutzung ggü. Menschen' behaupten zu können. Aktuell ist die Baseline das Aggregat aller Modelle (nur Distinktivität)."
+  }
+}

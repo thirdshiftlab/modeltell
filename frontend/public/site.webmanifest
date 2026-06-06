@@ -1,0 +1,17 @@
+{
+  "name": "Modeltell",
+  "short_name": "Modeltell",
+  "description": "Open data and visual analysis of AI linguistic fingerprints.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+/* Self-hosted fonts (no Google CDN) */
+@import "@fontsource-variable/fraunces/opsz.css";
+@import "@fontsource-variable/jetbrains-mono/index.css";
+@import "@fontsource-variable/inter/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-paper font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-accent-gold text-ink;
+  }
+
+  /* Editorial scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-line rounded-full;
+  }
+}
+
+@layer components {
+  .section-pad {
+    @apply px-6 py-24 md:px-12 md:py-32;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-muted;
+  }
+
+  .display-xl {
+    @apply font-display font-black leading-[0.95] tracking-tight;
+    font-size: clamp(2.75rem, 8vw, 7rem);
+  }
+
+  .display-lg {
+    @apply font-display font-black leading-[1] tracking-tight;
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  .lede {
+    @apply font-sans text-lg leading-relaxed text-paper/80 md:text-xl;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

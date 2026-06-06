@@ -1,0 +1,522 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "deepseek-v4-pro",
+    "label": "DeepSeek V4 Pro",
+    "provider": "openrouter",
+    "api_model": "deepseek/deepseek-v4-pro",
+    "tier": "opensource",
+    "family": "deepseek",
+    "version": "4-pro"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 10527,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.554,
+    "avg_sentence_length": 13.8,
+    "sentence_length_std_dev": 10.2
+  },
+  "radar": {
+    "tricolon_density": 3.45,
+    "hedge_density": 0.1,
+    "power_verb_density": 3.93,
+    "pseudo_inclusivity": 0.1,
+    "escalation_patterns": 12.55,
+    "future_filler": 0.1,
+    "em_dash_frequency": 14.3,
+    "formatting_density": 24.8
+  },
+  "top_words": [
+    {
+      "word": "wettbewerbsvorteile",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "stundenlange",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "excel-arbeit",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "entscheidungsrelevante",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "vorkonfigurierte",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "jtl",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "erp-systemen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "berateraufwand",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "routineanalysen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "plug-and-play",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "persönlichem",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "umsatzstarke",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "datenexperten",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "komplizierte",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "setups",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "zweistelligen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "prozentbereich",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "warenkorbabbrüche",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "sap",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "e-commerce-systemen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "fokussierung",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "großprojekt",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "tiefenarbeit",
+      "frequency_per_1k": 0.33,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "detektiert",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "chirurgischer",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "transparenz-mode",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "türklingeln",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "absetzen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "haut",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "reproduzieren",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "audio-welt",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "räumlichen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "weite",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "audiophilen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "zustimmendes",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "nicken",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "entlockt",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "außenwelt",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "tritt",
+      "frequency_per_1k": 0.5,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "gefertigt",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "umschmeicheln",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "zehn-stunden-tag",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "ambitioniertesten",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "ausdauer",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "quiet",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "soundtrack",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "kinder",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "straßen",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "monotone",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    },
+    {
+      "word": "over-ear-silhouette",
+      "frequency_per_1k": 0.17,
+      "distinctiveness": 15.84,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 118,
+      "per_1k_words": 11.3,
+      "ci_low": 9.58,
+      "ci_high": 12.98,
+      "q_value": 0.61,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Wettbewerbsvorteile – in",
+        "übersetzt – entwickelt",
+        "Systemen – kein",
+        "Umsatzchancen – mit",
+        "Entscheidungen – mit"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 41,
+      "per_1k_words": 3.93,
+      "ci_low": 2.62,
+      "ci_high": 5.29,
+      "q_value": 0.1178,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "ermöglicht",
+        "beschleunigte",
+        "Optimierung",
+        "skalieren",
+        "skalierbare"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 36,
+      "per_1k_words": 3.45,
+      "ci_low": 2.55,
+      "ci_high": 4.44,
+      "q_value": 0.1616,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Shopware, JTL und allen",
+        "Umsatz, Margen und Kundenverhalten",
+        "JTL, SAP und allen",
+        "Macht, Kontrolle und die",
+        "arbeiten, wachsen und auch"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 27,
+      "per_1k_words": 2.59,
+      "ci_low": 1.05,
+      "ci_high": 4.34,
+      "q_value": 0.9753,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(max. 30 Zeichen)",
+        "(max. 90 Zeichen)",
+        "(+40 % zum Vormonat)",
+        "(+40 %)",
+        "(w/m/d)"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 13,
+      "per_1k_words": 1.25,
+      "ci_low": 0.52,
+      "ci_high": 2.04,
+      "q_value": 0.9502,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur ein Accessoire, sondern ",
+        "nicht nur einen resilienten Betrieb, sondern ",
+        "nicht nur Tickets abarbeitet, sondern ",
+        "nicht nur zu messen, sondern ",
+        "nicht nur darstellt, sondern "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.1,
+      "ci_low": 0,
+      "ci_high": 0.33,
+      "q_value": 0.2578,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "ob eins davon passt, oder n"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.1,
+      "ci_low": 0,
+      "ci_high": 0.32,
+      "q_value": 0.5102,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". Durch v"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "severity": "high",
+      "count": 1,
+      "per_1k_words": 0.1,
+      "ci_low": 0,
+      "ci_high": 0.32,
+      "q_value": 0.9391,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Die Zukunft ist"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.1,
+      "ci_low": 0,
+      "ci_high": 0.33,
+      "q_value": 0.8901,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 2,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 88
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 2,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 88
+  },
+  "structure": {
+    "bullet_point_ratio": 0.16,
+    "bold_per_1k_words": 12.8,
+    "headers_per_1k_words": 0.4,
+    "exclamations_per_1k_words": 1.1,
+    "em_dashes_per_1k_words": 14.3,
+    "colons_per_1k_words": 15.2
+  }
+}

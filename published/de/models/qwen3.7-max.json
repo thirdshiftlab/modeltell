@@ -1,0 +1,531 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "qwen3.7-max",
+    "label": "Qwen3.7 Max",
+    "provider": "openrouter",
+    "api_model": "qwen/qwen3.7-max",
+    "tier": "opensource",
+    "family": "qwen",
+    "version": "3.7-max"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 16571,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.451,
+    "avg_sentence_length": 13.7,
+    "sentence_length_std_dev": 8.9
+  },
+  "radar": {
+    "tricolon_density": 2.97,
+    "hedge_density": 0.06,
+    "power_verb_density": 5.82,
+    "pseudo_inclusivity": 0.48,
+    "escalation_patterns": 5.64,
+    "future_filler": 0,
+    "em_dash_frequency": 5.2,
+    "formatting_density": 25.4
+  },
+  "top_words": [
+    {
+      "word": "datendschungel",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "handlungsfähige",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "wachstumsstrategien",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "crm-daten",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "business-fragen",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "bestseller-trends",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "enterprise-power",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "analyse-tiefe",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "tech-konzerne",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "umsatzprognosen",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "saisonale",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "maximierte",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "werbeausgaben",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "plug",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "play",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "rohe",
+      "frequency_per_1k": 0.31,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "berechenbares",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "margen-potenziale",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "margen-optimierung",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "suboptimales",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "verschenken",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "shop-infrastruktur",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "refugium",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "remote-profis",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "verschmilzt",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "augenblicklich",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "tauchst",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "wärst",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "video-call",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "gerichtete",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "ki-rauschunterdrückung",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "atmungsaktive",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "federleichter",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "titanbügel",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "schwerelosen",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "minimalistische",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "mattem",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "feinem",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "nahtlosem",
+      "frequency_per_1k": 0.31,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "multipairing",
+      "frequency_per_1k": 0.31,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "definiere",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "setze",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "tauche",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "tippende",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "urbaner",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "high-end-mikrofone",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "ki-stimmisolierung",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "federleichte",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "gehäuse",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    },
+    {
+      "word": "laptop-meeting",
+      "frequency_per_1k": 0.1,
+      "distinctiveness": 9.98,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 96,
+      "per_1k_words": 5.82,
+      "ci_low": 4.6,
+      "ci_high": 7,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "steigern",
+        "optimiert",
+        "optimieren",
+        "Maximierte",
+        "Optimierung"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 66,
+      "per_1k_words": 4,
+      "ci_low": 3.15,
+      "ci_high": 4.87,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "liefern – ganz",
+        "Echtzeit – ganz",
+        "Wachstumsstrategien – ganz",
+        "Kopfhörer – er",
+        "Komfort – selbst"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 64,
+      "per_1k_words": 3.88,
+      "ci_low": 2.36,
+      "ci_high": 5.61,
+      "q_value": 0.124,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(und Humor)",
+        "(max. 30 Zeichen)",
+        "(max. 90 Zeichen)",
+        "(+40 %)",
+        "(+40 % MoM)"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 49,
+      "per_1k_words": 2.97,
+      "ci_low": 2.08,
+      "ci_high": 3.83,
+      "q_value": 0.044,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Trends, Kaufabbrüche und Cross",
+        "Ressourcen, Budgets und Ihren",
+        "sieht, fühlt und hört",
+        "souverän, klar und absolut",
+        "Kontrolle, Kommerz und die"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 27,
+      "per_1k_words": 1.64,
+      "ci_low": 1.07,
+      "ci_high": 2.34,
+      "q_value": 0.6564,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "nicht nur störende Nebengeräusche, sondern ",
+        "nicht nur Milliarden von Parametern trainiert, sondern auch ",
+        "nicht nur ein Versprechen an unsere Kunden, sondern ",
+        "nicht nur alle Compliance-Vorgaben vorzeitig, sondern ",
+        "nicht nur die strikte Einhaltung regulatorischer Vorgaben, sondern "
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 14,
+      "per_1k_words": 0.85,
+      "ci_low": 0.4,
+      "ci_high": 1.31,
+      "q_value": 0.0278,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        ". Durch m",
+        ". Durch d",
+        ". Indem w",
+        ". Durch C",
+        ". \n\nDurch d"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 6,
+      "per_1k_words": 0.36,
+      "ci_low": 0.12,
+      "ci_high": 0.69,
+      "q_value": 0.9595,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Ob laute Mitbewohner oder d",
+        "egal ob tippende Mitbewohner, die Kaffeemaschine oder u",
+        "Ob im belebten Co-Working-Space oder i",
+        "Ob Homeoffice, Café oder H",
+        "Egal, ob du gerade deine erste API anbindest oder k"
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "severity": "medium",
+      "count": 2,
+      "per_1k_words": 0.12,
+      "ci_low": 0,
+      "ci_high": 0.31,
+      "q_value": 0.2226,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Stellen Sie sich vor",
+        ". Stell dir vor"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.06,
+      "ci_low": 0,
+      "ci_high": 0.2,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 3,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 87
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 4,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 86
+  },
+  "structure": {
+    "bullet_point_ratio": 0.13,
+    "bold_per_1k_words": 14.1,
+    "headers_per_1k_words": 1.8,
+    "exclamations_per_1k_words": 1.3,
+    "em_dashes_per_1k_words": 5.2,
+    "colons_per_1k_words": 19.4
+  }
+}

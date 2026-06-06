@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Grammatical constructions disproportionately used by LLMs. These are harder to detect than individual words and represent deeper stylistic patterns.",
+  "generated_at": "2026-06-05T18:55:43.547Z",
+  "constructions": [
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "description": "Three-part lists, especially with ascending syllable count or dramatic escalation",
+      "severity": "high",
+      "regex": "\\b(\\w+),\\s+(\\w+),\\s+and\\s+(\\w+)\\b",
+      "avg_frequency": 4.33,
+      "examples": [
+        "marketing, inventory, and customer",
+        "executives, marketers, and operators",
+        "customers, campaigns, and channels"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gpt-5.5",
+          "per_1k": 8.75
+        },
+        {
+          "model": "gpt-5.4-mini",
+          "per_1k": 8.6
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 6.47
+        }
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "Whether-You're Pseudo-Inclusivity",
+      "description": "Opening with 'Whether you're X or Y' to fake audience inclusivity",
+      "severity": "critical",
+      "regex": "whether\\s+you(?:'re|\\s+are)\\s+.{5,60}\\s+or\\s+",
+      "avg_frequency": 0.11,
+      "examples": [
+        "Whether you're working from a bustling coffee shop or ",
+        "Whether you're a startup looking to make a splash or ",
+        "Whether you're a fledgling startup or "
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.41
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.25
+        },
+        {
+          "model": "claude-sonnet-4.6",
+          "per_1k": 0.17
+        }
+      ]
+    },
+    {
+      "id": "hedge_opening",
+      "label": "Hedging Opener",
+      "description": "Softening phrases that add no information",
+      "severity": "high",
+      "regex": "it(?:'s|\\s+is)\\s+(worth|important|no secret|safe|fair)\\s+(?:to\\s+)?(not(?:ing|e)|remember|say|mention)",
+      "avg_frequency": 0,
+      "examples": [],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "Not-Just-But Escalation",
+      "description": "Pseudo-dramatic contrast construction",
+      "severity": "high",
+      "regex": "not\\s+just\\s+.{3,50}(?:,\\s*but|\\u2014\\s*(?:it(?:'s)?\\s+)?)",
+      "avg_frequency": 0.09,
+      "examples": [
+        "not just for technical supremacy, but",
+        "Not Just Tickets:** Take a business goal—",
+        "not just impressive technology, but"
+      ],
+      "worst_offenders": [
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 0.37
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.24
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 0.17
+        }
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "By-Gerund Instruction",
+      "description": "Starting sentences with 'By [verb]ing' as a pseudo-authoritative construction",
+      "severity": "medium",
+      "regex": "(?:^|[.!?]\\s+)by\\s+\\w+ing\\b",
+      "avg_frequency": 0.36,
+      "examples": [
+        ". By blocking",
+        ". By leveraging",
+        ". By providing"
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 1.36
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.76
+        },
+        {
+          "model": "gpt-5.4-mini",
+          "per_1k": 0.43
+        }
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "In-Today's-Landscape",
+      "description": "Opening with 'In today's [adjective] landscape/world/era'",
+      "severity": "critical",
+      "regex": "in\\s+(?:today(?:'s)?|an?|the\\s+current)\\s+(?:\\w+\\s+){0,2}(?:landscape|world|era|environment|age|marketplace|ecosystem)",
+      "avg_frequency": 0.13,
+      "examples": [
+        "In a world"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.1-pro",
+          "per_1k": 0.37
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.25
+        },
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 0.21
+        }
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "Imagine-This Opening",
+      "description": "Opening with 'Imagine' to create forced engagement",
+      "severity": "medium",
+      "regex": "(?:^|[.!?]\\s+)(?:imagine|picture\\s+this)\\s+",
+      "avg_frequency": 0.01,
+      "examples": [
+        ". Imagine "
+      ],
+      "worst_offenders": [
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 0.1
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "description": "Using em-dash for dramatic effect mid-sentence",
+      "severity": "medium",
+      "regex": "\\w+\\s+[\\u2014\\u2013]\\s+\\w+",
+      "avg_frequency": 2.12,
+      "examples": [
+        "decisions — with",
+        "trends — no",
+        "behavior — so"
+      ],
+      "worst_offenders": [
+        {
+          "model": "claude-sonnet-4.6",
+          "per_1k": 9.41
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 6.58
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 5.06
+        }
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "description": "Clustering action verbs for artificial energy",
+      "severity": "high",
+      "regex": "(?:drive|boost|accelerate|streamline|optimize|transform|empower|unlock|elevate|supercharge|revolutionize|harness|amplify)\\b",
+      "avg_frequency": 2.06,
+      "examples": [
+        "Unlock",
+        "Transform",
+        "Boost"
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 5.37
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 3.05
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 2.73
+        }
+      ]
+    },
+    {
+      "id": "lets_dive",
+      "label": "Let's-Dive Transition",
+      "description": "Conversational transitions that signal section breaks",
+      "severity": "medium",
+      "regex": "let(?:'s|\\s+us)\\s+(?:dive|explore|take\\s+a\\s+(?:closer\\s+)?look|break\\s+(?:it|this)\\s+down|unpack)",
+      "avg_frequency": 0.02,
+      "examples": [
+        "Let's dive"
+      ],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0.14
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.06
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Colon-Introduced List",
+      "description": "Setting up bullet points with a colon clause",
+      "severity": "medium",
+      "regex": "(?:here(?:'s|\\s+is|\\s+are)|key\\s+\\w+\\s+include|(?:three|four|five)\\s+(?:key\\s+)?(?:pillars|principles|areas|reasons))\\s*:",
+      "avg_frequency": 0.02,
+      "examples": [
+        "Key questions include:",
+        "Key considerations include:"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gpt-5.5",
+          "per_1k": 0.11
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.06
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0.05
+        }
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorical Question Hook",
+      "description": "Using questions as engagement bait, especially at the start",
+      "severity": "medium",
+      "regex": "(?:what\\s+if|sound\\s+familiar|but\\s+what\\s+does|ever\\s+wonder|ready\\s+to|tired\\s+of|looking\\s+for)\\s*.{0,40}\\?",
+      "avg_frequency": 0.07,
+      "examples": [
+        "Ready to Code for Climate?",
+        "Ready to build something that counts?",
+        "Ready to code for the climate?"
+      ],
+      "worst_offenders": [
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 0.26
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0.14
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.12
+        }
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Future-Forward Closing",
+      "description": "Ending with vague future-facing statements",
+      "severity": "high",
+      "regex": "(?:the\\s+future\\s+(?:of|is)|as\\s+we\\s+(?:move|look|continue|step)\\s+(?:forward|ahead)|looking\\s+ahead|poised\\s+(?:to|for))",
+      "avg_frequency": 0.58,
+      "examples": [
+        "the future of"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 1.42
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 1.18
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 0.97
+        }
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "description": "Parenthetical clarifications that over-explain",
+      "severity": "low",
+      "regex": "\\([^)]{5,60}\\)",
+      "avg_frequency": 1.97,
+      "examples": [
+        "(Max 30 characters each)",
+        "(+40% MoM)",
+        "(based on current burn of $[X]K/month)"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 4.25
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 4.09
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 3.45
+        }
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "description": "Pseudo-depth construction claiming to reveal essence",
+      "severity": "medium",
+      "regex": "(?:at\\s+(?:its|the|our)\\s+(?:core|heart|foundation)|fundamentally|when\\s+you\\s+strip\\s+(?:it|everything))",
+      "avg_frequency": 0.24,
+      "examples": [
+        "at the heart",
+        "fundamentally"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.1-pro",
+          "per_1k": 0.75
+        },
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 0.47
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "llama-4-maverick",
+    "label": "Llama 4 Maverick",
+    "provider": "openrouter",
+    "api_model": "meta-llama/llama-4-maverick",
+    "tier": "opensource",
+    "family": "llama",
+    "version": "4-maverick"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 12708,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.347,
+    "avg_sentence_length": 15.4,
+    "sentence_length_std_dev": 9.3
+  },
+  "radar": {
+    "tricolon_density": 3.41,
+    "hedge_density": 0,
+    "power_verb_density": 9.03,
+    "pseudo_inclusivity": 0.08,
+    "escalation_patterns": 1.98,
+    "future_filler": 0.08,
+    "em_dash_frequency": 0.6,
+    "formatting_density": 18.9
+  },
+  "top_words": [
+    {
+      "word": "e-commerce-strategie",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "kundeninsights",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "kundenverhaltensdaten",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "vertriebsstrategien",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "prozessoptimierung",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "ineffizienzen",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "geschäftsprozessen",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "echtzeitdaten",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "geschäftsentscheidungen",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "produktangebote",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "marketingeffizienz",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "zielgruppenanalyse",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "geschäftsperformance",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "puls",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "ununterbrochen",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "bequeme",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "designsprache",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "arbeitsumgebung",
+      "frequency_per_1k": 0.84,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "immersive",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "audio-erfahrung",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "störunterdrückung",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "cancellation-technologie",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "hintergrundgeräusche",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "bequemen",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "konnektivität",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "dimension",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "genusses",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "premium-kopfhörern",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "uneingeschränkte",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "audioqualität",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "störungsfreies",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "hörerlebnis",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "umgebungslärm",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "abgelenkt",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "wiedergabezeit",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "quick-charge-funktion",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "akku",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "aufzuladen",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "sorgfältige",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "verarbeitung",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "lebensdauer",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "arbeitserlebnis",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "ki-community",
+      "frequency_per_1k": 0.42,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "open-source-modelle",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "anpassungsfähigkeit",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "gemeinschaftliche",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "verwertung",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "dichotomie",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "untersuchen",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    },
+    {
+      "word": "gegensätzlichen",
+      "frequency_per_1k": 0.28,
+      "distinctiveness": 13.36,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 114,
+      "per_1k_words": 9.03,
+      "ci_low": 7.28,
+      "ci_high": 10.85,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Steigern",
+        "Optimieren",
+        "optimieren",
+        "steigern",
+        "Optimierungen"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 43,
+      "per_1k_words": 3.41,
+      "ci_low": 2.19,
+      "ci_high": 4.55,
+      "q_value": 0.1609,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Kunden, Produkte und Prozesse",
+        "Transparenz, Anpassungsfähigkeit und gemeinschaftliche",
+        "Kontrolle, Sicherheit und kommerzielle",
+        "dir, schnell und effektiv",
+        "Technologie, Sicherheitsanalysen und Incident"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 20,
+      "per_1k_words": 1.58,
+      "ci_low": 0.77,
+      "ci_high": 2.49,
+      "q_value": 0.834,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "nicht nur eine Ehre für unser Unternehmen, sondern auch ",
+        "nicht nur eine Anerkennung für unser Team, sondern auch ",
+        "nicht nur eine Anerkennung unserer Bemühungen, sondern auch ",
+        "nicht nur umweltfreundlich, sondern auch ",
+        "nicht nur die Umweltfreundlichkeit unserer Produkte, sondern auch "
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 19,
+      "per_1k_words": 1.51,
+      "ci_low": 0.78,
+      "ci_high": 2.27,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        ". Durch d",
+        ".\n\nDurch d",
+        ". Durch u",
+        ". Durch r",
+        ".\n\nIndem w"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 8,
+      "per_1k_words": 0.63,
+      "ci_low": 0.17,
+      "ci_high": 1.18,
+      "q_value": 0.0903,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(Runway)",
+        "(m/w/d)",
+        "(deutsche Sprachkenntnisse sind optional)",
+        "(je nach Erfahrung)",
+        "(CI/CD)"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 5,
+      "per_1k_words": 0.4,
+      "ci_low": 0.07,
+      "ci_high": 0.85,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "ist – es",
+        "Mittelpunkt – nicht",
+        "Kaffees – fair",
+        "Pipeline – wir",
+        "Visionäre – sie"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.25,
+      "q_value": 0.225,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Ob Sie in einem lauten Café oder i"
+      ]
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Doppelpunkt-Liste",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.26,
+      "q_value": 0.225,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Hier sind drei wichtige Vorteile:"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "severity": "high",
+      "count": 1,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.3,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "die Zukunft ist"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 3,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 87
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 4,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 86
+  },
+  "structure": {
+    "bullet_point_ratio": 0.17,
+    "bold_per_1k_words": 7.9,
+    "headers_per_1k_words": 0,
+    "exclamations_per_1k_words": 3.9,
+    "em_dashes_per_1k_words": 0.6,
+    "colons_per_1k_words": 14.1
+  }
+}

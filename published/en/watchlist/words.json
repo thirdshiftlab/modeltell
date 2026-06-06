@@ -1,0 +1,890 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Curated AI-associated words and how often they appear across the corpus (per 1,000 words). These are known LLM tells (power words, hedges, connectors, fillers), measured in this run.",
+  "generated_at": "2026-06-05T18:55:43.547Z",
+  "words": [
+    {
+      "word": "innovation",
+      "overuse_score": 0.41,
+      "per_model": {
+        "claude-opus-4.6": 0.28,
+        "claude-opus-4.7": 0.17,
+        "claude-opus-4.8": 0.27,
+        "claude-sonnet-4.6": 0.12,
+        "deepseek-v3.2": 0.63,
+        "deepseek-v4-pro": 0.33,
+        "gemini-3.1-pro": 0.37,
+        "gemini-3.5-flash": 0.31,
+        "gpt-5.4-mini": 0.64,
+        "gpt-5.5": 0.16,
+        "llama-4-maverick": 1.17,
+        "mistral-large-2512": 0.79,
+        "qwen3.7-max": 0.34
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512",
+        "gpt-5.4-mini"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "optimize",
+      "overuse_score": 0.28,
+      "per_model": {
+        "claude-opus-4.6": 0.24,
+        "claude-opus-4.7": 0.09,
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.08,
+        "deepseek-v3.2": 0.21,
+        "deepseek-v4-pro": 0.14,
+        "gemini-3.1-pro": 0.37,
+        "gemini-3.5-flash": 0.78,
+        "gpt-5.4-mini": 0.16,
+        "gpt-5.5": 0.32,
+        "llama-4-maverick": 0.53,
+        "mistral-large-2512": 0.57,
+        "qwen3.7-max": 0.76
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "qwen3.7-max",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "comprehensive",
+      "overuse_score": 0.25,
+      "per_model": {
+        "claude-opus-4.6": 0.32,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.21,
+        "deepseek-v3.2": 0.26,
+        "deepseek-v4-pro": 0.05,
+        "gemini-3.1-pro": 1.1,
+        "gemini-3.5-flash": 0.16,
+        "gpt-5.5": 0.05,
+        "llama-4-maverick": 0.82,
+        "mistral-large-2512": 0.23,
+        "qwen3.7-max": 0.51
+      },
+      "worst_offenders": [
+        "gemini-3.1-pro",
+        "llama-4-maverick",
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "seamless",
+      "overuse_score": 0.23,
+      "per_model": {
+        "claude-opus-4.6": 0.16,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.22,
+        "claude-sonnet-4.6": 0.12,
+        "deepseek-v3.2": 0.1,
+        "deepseek-v4-pro": 0.14,
+        "gemini-3.5-flash": 0.47,
+        "gpt-5.4-mini": 0.21,
+        "gpt-5.5": 0.16,
+        "llama-4-maverick": 0.18,
+        "mistral-large-2512": 0.73,
+        "qwen3.7-max": 0.59
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "qwen3.7-max",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "seamlessly",
+      "overuse_score": 0.22,
+      "per_model": {
+        "claude-opus-4.6": 0.08,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.04,
+        "claude-sonnet-4.6": 0.17,
+        "deepseek-v3.2": 0.36,
+        "deepseek-v4-pro": 0.14,
+        "gemini-3.1-pro": 0.55,
+        "gemini-3.5-flash": 0.16,
+        "gpt-5.4-mini": 0.16,
+        "gpt-5.5": 0.11,
+        "llama-4-maverick": 0.12,
+        "mistral-large-2512": 0.17,
+        "qwen3.7-max": 1.43
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "gemini-3.1-pro",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "robust",
+      "overuse_score": 0.22,
+      "per_model": {
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.04,
+        "deepseek-v3.2": 0.73,
+        "deepseek-v4-pro": 0.28,
+        "gemini-3.1-pro": 0.18,
+        "gemini-3.5-flash": 0.31,
+        "gpt-5.4-mini": 0.11,
+        "llama-4-maverick": 0.29,
+        "mistral-large-2512": 0.4,
+        "qwen3.7-max": 0.76
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "deepseek-v3.2",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "effectively",
+      "overuse_score": 0.16,
+      "per_model": {
+        "claude-opus-4.7": 0.09,
+        "claude-opus-4.8": 0.04,
+        "claude-sonnet-4.6": 0.08,
+        "deepseek-v3.2": 0.42,
+        "deepseek-v4-pro": 0.23,
+        "gemini-3.1-pro": 0.18,
+        "gpt-5.4-mini": 0.27,
+        "gpt-5.5": 0.11,
+        "llama-4-maverick": 0.35,
+        "mistral-large-2512": 0.11,
+        "qwen3.7-max": 0.25
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "llama-4-maverick",
+        "gpt-5.4-mini"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "cutting-edge",
+      "overuse_score": 0.14,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.08,
+        "deepseek-v3.2": 0.21,
+        "deepseek-v4-pro": 0.05,
+        "llama-4-maverick": 0.47,
+        "mistral-large-2512": 0.51,
+        "qwen3.7-max": 0.17
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "llama-4-maverick",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "unlock",
+      "overuse_score": 0.14,
+      "per_model": {
+        "claude-opus-4.6": 0.08,
+        "claude-opus-4.7": 0.04,
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.31,
+        "deepseek-v4-pro": 0.38,
+        "gemini-3.5-flash": 0.31,
+        "gpt-5.5": 0.05,
+        "llama-4-maverick": 0.53,
+        "mistral-large-2512": 0.11
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "deepseek-v4-pro",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "unprecedented",
+      "overuse_score": 0.12,
+      "per_model": {
+        "claude-opus-4.6": 0.2,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.04,
+        "deepseek-v3.2": 0.1,
+        "deepseek-v4-pro": 0.09,
+        "gemini-3.1-pro": 0.37,
+        "gpt-5.4-mini": 0.05,
+        "gpt-5.5": 0.11,
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.42
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "gemini-3.1-pro",
+        "claude-opus-4.6"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "streamline",
+      "overuse_score": 0.11,
+      "per_model": {
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.1,
+        "gemini-3.5-flash": 0.31,
+        "gpt-5.4-mini": 0.27,
+        "gpt-5.5": 0.27,
+        "llama-4-maverick": 0.53,
+        "mistral-large-2512": 0.11
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "gemini-3.5-flash",
+        "gpt-5.4-mini"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "navigate",
+      "overuse_score": 0.1,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.7": 0.04,
+        "claude-sonnet-4.6": 0.17,
+        "deepseek-v3.2": 0.16,
+        "gemini-3.1-pro": 0.18,
+        "gpt-5.4-mini": 0.11,
+        "gpt-5.5": 0.05,
+        "llama-4-maverick": 0.47,
+        "qwen3.7-max": 0.17
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "gemini-3.1-pro",
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "innovative",
+      "overuse_score": 0.1,
+      "per_model": {
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.21,
+        "llama-4-maverick": 0.76,
+        "mistral-large-2512": 0.28,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "transformative",
+      "overuse_score": 0.09,
+      "per_model": {
+        "claude-opus-4.6": 0.16,
+        "claude-opus-4.8": 0.04,
+        "claude-sonnet-4.6": 0.04,
+        "deepseek-v3.2": 0.31,
+        "deepseek-v4-pro": 0.09,
+        "gpt-5.5": 0.05,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.34
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "deepseek-v3.2",
+        "claude-opus-4.6"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "leveraging",
+      "overuse_score": 0.08,
+      "per_model": {
+        "deepseek-v3.2": 0.1,
+        "deepseek-v4-pro": 0.05,
+        "gemini-3.1-pro": 0.18,
+        "llama-4-maverick": 0.41,
+        "mistral-large-2512": 0.28,
+        "qwen3.7-max": 0.17
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512",
+        "gemini-3.1-pro"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "leverage",
+      "overuse_score": 0.07,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.36,
+        "llama-4-maverick": 0.18,
+        "mistral-large-2512": 0.17,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "llama-4-maverick",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "navigating",
+      "overuse_score": 0.07,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.7": 0.04,
+        "claude-opus-4.8": 0.04,
+        "claude-sonnet-4.6": 0.04,
+        "deepseek-v3.2": 0.16,
+        "deepseek-v4-pro": 0.14,
+        "gemini-3.1-pro": 0.55,
+        "gemini-3.5-flash": 0.16,
+        "gpt-5.4-mini": 0.05,
+        "qwen3.7-max": 0.17
+      },
+      "worst_offenders": [
+        "gemini-3.1-pro",
+        "qwen3.7-max",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "revolutionize",
+      "overuse_score": 0.06,
+      "per_model": {
+        "claude-opus-4.6": 0.12,
+        "deepseek-v3.2": 0.05,
+        "gemini-3.1-pro": 0.18,
+        "gemini-3.5-flash": 0.16,
+        "llama-4-maverick": 0.53
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "gemini-3.1-pro",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "unlocking",
+      "overuse_score": 0.06,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.09,
+        "deepseek-v3.2": 0.16,
+        "deepseek-v4-pro": 0.05,
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "claude-opus-4.7",
+        "claude-opus-4.8"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "typically",
+      "overuse_score": 0.06,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.7": 0.22,
+        "claude-sonnet-4.6": 0.12,
+        "deepseek-v4-pro": 0.19
+      },
+      "worst_offenders": [
+        "claude-opus-4.7",
+        "deepseek-v4-pro",
+        "claude-sonnet-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "empowering",
+      "overuse_score": 0.06,
+      "per_model": {
+        "claude-opus-4.8": 0.09,
+        "deepseek-v3.2": 0.16,
+        "deepseek-v4-pro": 0.05,
+        "gemini-3.1-pro": 0.18,
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.17,
+        "qwen3.7-max": 0.25
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "gemini-3.1-pro",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "empower",
+      "overuse_score": 0.05,
+      "per_model": {
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.21,
+        "gemini-3.1-pro": 0.18,
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.34
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "deepseek-v3.2",
+        "gemini-3.1-pro"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "elevate",
+      "overuse_score": 0.05,
+      "per_model": {
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.16,
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.17,
+        "qwen3.7-max": 0.34
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "mistral-large-2512",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "furthermore",
+      "overuse_score": 0.05,
+      "per_model": {
+        "deepseek-v3.2": 0.1,
+        "gemini-3.1-pro": 0.37,
+        "qwen3.7-max": 0.59
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "gemini-3.1-pro",
+        "deepseek-v3.2"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "maximize",
+      "overuse_score": 0.04,
+      "per_model": {
+        "claude-opus-4.8": 0.04,
+        "deepseek-v3.2": 0.05,
+        "gemini-3.5-flash": 0.47,
+        "llama-4-maverick": 0.18,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "llama-4-maverick",
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "unparalleled",
+      "overuse_score": 0.04,
+      "per_model": {
+        "deepseek-v3.2": 0.1,
+        "llama-4-maverick": 0.12,
+        "mistral-large-2512": 0.17,
+        "qwen3.7-max": 0.17
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "qwen3.7-max",
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "absolutely",
+      "overuse_score": 0.03,
+      "per_model": {
+        "claude-opus-4.6": 0.08,
+        "claude-opus-4.8": 0.04,
+        "claude-sonnet-4.6": 0.04,
+        "gemini-3.1-pro": 0.18,
+        "gemini-3.5-flash": 0.31
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "gemini-3.1-pro",
+        "claude-opus-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "groundbreaking",
+      "overuse_score": 0.03,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "llama-4-maverick": 0.12,
+        "mistral-large-2512": 0.17
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "llama-4-maverick",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "when it comes to",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "claude-opus-4.8": 0.09,
+        "gemini-3.1-pro": 0.18
+      },
+      "worst_offenders": [
+        "gemini-3.1-pro",
+        "claude-opus-4.8",
+        "claude-opus-4.6"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "accordingly",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.7": 0.09,
+        "claude-sonnet-4.6": 0.08
+      },
+      "worst_offenders": [
+        "claude-opus-4.7",
+        "claude-sonnet-4.6"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "foster",
+      "overuse_score": 0.02,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "gemini-3.5-flash": 0.16,
+        "llama-4-maverick": 0.06,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "qwen3.7-max",
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "cultivate",
+      "overuse_score": 0.02,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "deepseek-v4-pro": 0.05,
+        "gemini-3.5-flash": 0.16,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "qwen3.7-max",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "harnessing",
+      "overuse_score": 0.02,
+      "per_model": {
+        "gemini-3.5-flash": 0.16,
+        "llama-4-maverick": 0.23
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "game-changing",
+      "overuse_score": 0.02,
+      "per_model": {
+        "llama-4-maverick": 0.29
+      },
+      "worst_offenders": [
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "disruptive",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.6": 0.04,
+        "deepseek-v3.2": 0.1
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "claude-opus-4.6"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "certainly",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.7": 0.04,
+        "deepseek-v3.2": 0.05,
+        "deepseek-v4-pro": 0.05
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "deepseek-v4-pro",
+        "claude-opus-4.7"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "revolutionary",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-sonnet-4.6": 0.04,
+        "gemini-3.1-pro": 0.18
+      },
+      "worst_offenders": [
+        "gemini-3.1-pro",
+        "claude-sonnet-4.6"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "perhaps",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-sonnet-4.6": 0.04,
+        "llama-4-maverick": 0.12
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "claude-sonnet-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "holistic",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "moving forward",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "llama-4-maverick": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "deepseek-v3.2"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "virtually",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v3.2": 0.05,
+        "gemini-3.5-flash": 0.16
+      },
+      "worst_offenders": [
+        "gemini-3.5-flash",
+        "deepseek-v3.2"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "synergy",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v4-pro": 0.09
+      },
+      "worst_offenders": [
+        "deepseek-v4-pro"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "consequently",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v4-pro": 0.09,
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "deepseek-v4-pro",
+        "qwen3.7-max"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "game-changer",
+      "overuse_score": 0.01,
+      "per_model": {
+        "llama-4-maverick": 0.12,
+        "mistral-large-2512": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "harness",
+      "overuse_score": 0.01,
+      "per_model": {
+        "llama-4-maverick": 0.12
+      },
+      "worst_offenders": [
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "in terms of",
+      "overuse_score": 0.01,
+      "per_model": {
+        "llama-4-maverick": 0.06,
+        "mistral-large-2512": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "essentially",
+      "overuse_score": 0,
+      "per_model": {
+        "claude-opus-4.6": 0.04
+      },
+      "worst_offenders": [
+        "claude-opus-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "nevertheless",
+      "overuse_score": 0,
+      "per_model": {
+        "claude-opus-4.8": 0.04
+      },
+      "worst_offenders": [
+        "claude-opus-4.8"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "relatively",
+      "overuse_score": 0,
+      "per_model": {
+        "claude-sonnet-4.6": 0.04
+      },
+      "worst_offenders": [
+        "claude-sonnet-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "turbocharge",
+      "overuse_score": 0,
+      "per_model": {
+        "llama-4-maverick": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "state-of-the-art",
+      "overuse_score": 0,
+      "per_model": {
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "fostering",
+      "overuse_score": 0,
+      "per_model": {
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "at the end of the day",
+      "overuse_score": 0,
+      "per_model": {
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "additionally",
+      "overuse_score": 0,
+      "per_model": {
+        "qwen3.7-max": 0.08
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "connector"
+    }
+  ]
+}

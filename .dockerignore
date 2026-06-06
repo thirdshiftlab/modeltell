@@ -1,0 +1,19 @@
+# Keep the build context small and reproducible.
+**/node_modules
+**/dist
+.git
+.github
+
+# Raw generations are large and NOT needed for the frontend build
+# (only published/ is consumed). Comment out if you want them in the image.
+data
+
+# Regenerated from published/ by the build's sync step
+frontend/public/data
+
+# Local cruft
+**/.playwright-mcp
+*.log
+.env
+.env.*
+.DS_Store

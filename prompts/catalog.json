@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Modeltell - Standardized prompt catalog for cross-model linguistic analysis",
+    "instructions": "Each prompt is sent verbatim to every model. Do NOT modify prompts between models. Run each prompt 3x per model for statistical robustness."
+  },
+  "prompts": [
+    {
+      "id": "marketing-01",
+      "category": "marketing",
+      "label": "SaaS Landing Page Hero",
+      "prompt": "Write the hero section copy for a B2B SaaS landing page. The product is an AI-powered analytics platform for mid-market e-commerce companies. Include a headline, subheadline, and three bullet points highlighting key benefits."
+    },
+    {
+      "id": "marketing-02",
+      "category": "marketing",
+      "label": "Product Description",
+      "prompt": "Write a product description for a premium wireless noise-canceling headphone. Target audience: remote workers aged 25-40. Tone: sophisticated but approachable. 150-200 words."
+    },
+    {
+      "id": "marketing-03",
+      "category": "marketing",
+      "label": "Email Newsletter Intro",
+      "prompt": "Write the opening paragraph of a weekly tech newsletter about AI developments. The newsletter is called 'The Signal'. Make it engaging and set up this week's theme: the tension between open-source and proprietary AI models."
+    },
+    {
+      "id": "marketing-04",
+      "category": "marketing",
+      "label": "LinkedIn Company Post",
+      "prompt": "Write a LinkedIn post for a 50-person consulting firm announcing they've been named a 'Best Place to Work'. Keep it authentic, not cringe. 100-150 words."
+    },
+    {
+      "id": "marketing-05",
+      "category": "marketing",
+      "label": "Google Ads Copy",
+      "prompt": "Write 5 Google Ads headlines (max 30 characters each) and 3 descriptions (max 90 characters each) for an online language learning platform that uses AI tutors."
+    },
+    {
+      "id": "marketing-06",
+      "category": "marketing",
+      "label": "Case Study Summary",
+      "prompt": "Write a 200-word case study summary for a cybersecurity company. The client (a regional bank) reduced security incidents by 73% after implementing the product. Include the challenge, solution, and results."
+    },
+    {
+      "id": "business-01",
+      "category": "business",
+      "label": "Startup Pitch Intro",
+      "prompt": "Write the opening two paragraphs of a pitch deck script for a Series A startup in the sustainable packaging space. The company has developed a seaweed-based alternative to plastic wrap. Revenue: $2.3M ARR, growing 15% MoM."
+    },
+    {
+      "id": "business-02",
+      "category": "business",
+      "label": "Investor Update Email",
+      "prompt": "Write a monthly investor update email for a pre-seed startup building developer tools. Key metrics: 1,200 MAU (up 40%), $8K MRR, runway 14 months. One challenge: enterprise sales cycle longer than expected. Keep it honest and concise."
+    },
+    {
+      "id": "business-03",
+      "category": "business",
+      "label": "Job Description",
+      "prompt": "Write a job description for a Senior Full-Stack Engineer at a climate tech startup. Stack: TypeScript, Next.js, Python, PostgreSQL. Remote-first, 4-day work week. Salary: $150-180K. Make it stand out from generic JDs."
+    },
+    {
+      "id": "business-04",
+      "category": "business",
+      "label": "Press Release",
+      "prompt": "Write a press release announcing a $25M Series B funding round for a healthtech company that provides AI-powered mental health screening tools for universities. Lead investor: Andreessen Horowitz."
+    },
+    {
+      "id": "business-05",
+      "category": "business",
+      "label": "Partnership Announcement",
+      "prompt": "Write a blog post announcing a strategic partnership between a fintech company and a major European bank. The partnership enables instant cross-border payments in 12 new markets. 200-250 words."
+    },
+    {
+      "id": "business-06",
+      "category": "business",
+      "label": "OKR Description",
+      "prompt": "Write 3 OKRs (Objectives and Key Results) for a product team at a B2B SaaS company. The team is responsible for onboarding and activation. Current activation rate: 34%, target: 55%."
+    },
+    {
+      "id": "creative-01",
+      "category": "creative",
+      "label": "Blog Post Introduction",
+      "prompt": "Write the introduction (first 200 words) of a blog post titled 'Why Most Digital Transformations Fail'. Target audience: CTOs and VPs of Engineering. Tone: authoritative, slightly provocative."
+    },
+    {
+      "id": "creative-02",
+      "category": "creative",
+      "label": "About Us Page",
+      "prompt": "Write an 'About Us' page for a 10-person design agency based in Berlin. They specialize in brand identity for food & beverage startups. Founded in 2019 by two ex-IDEO designers. 200 words."
+    },
+    {
+      "id": "creative-03",
+      "category": "creative",
+      "label": "Social Media Bio",
+      "prompt": "Write 5 different Instagram bio options for a sourdough bakery in Portland that also does baking workshops. Each bio must be under 150 characters."
+    },
+    {
+      "id": "creative-04",
+      "category": "creative",
+      "label": "Brand Manifesto",
+      "prompt": "Write a 150-word brand manifesto for an outdoor clothing company that focuses on repairability and longevity over fashion trends. Think Patagonia's ethos but with a European sensibility."
+    },
+    {
+      "id": "creative-05",
+      "category": "creative",
+      "label": "Event Invitation",
+      "prompt": "Write an email invitation for a private launch event for a new co-working space in Amsterdam. The event features local DJs, craft cocktails, and a panel on the future of hybrid work. Tone: cool but not trying too hard. 150 words."
+    },
+    {
+      "id": "creative-06",
+      "category": "creative",
+      "label": "Tagline Generation",
+      "prompt": "Generate 10 tagline options for an electric vehicle charging network expanding across Europe. The brand values are reliability, speed, and sustainability. Each tagline max 8 words."
+    },
+    {
+      "id": "professional-01",
+      "category": "professional",
+      "label": "Executive Summary",
+      "prompt": "Write an executive summary (250 words) for a market research report on the European plant-based protein market. Key finding: market expected to reach €7.5B by 2028, driven by flexitarian consumers aged 25-45."
+    },
+    {
+      "id": "professional-02",
+      "category": "professional",
+      "label": "Proposal Introduction",
+      "prompt": "Write the introduction section of a consulting proposal. Your firm is proposing a 12-week operational efficiency audit for a mid-size logistics company with 3 warehouses and 200 employees. Budget: €85,000."
+    },
+    {
+      "id": "professional-03",
+      "category": "professional",
+      "label": "Internal Memo",
+      "prompt": "Write an internal memo from the CEO to all employees announcing a pivot from B2C to B2B. The company is a meal-kit delivery service that will now focus on corporate catering. Be transparent about the reasons (unit economics) and optimistic about the opportunity."
+    },
+    {
+      "id": "professional-04",
+      "category": "professional",
+      "label": "Conference Talk Abstract",
+      "prompt": "Write a 150-word abstract for a conference talk titled 'Beyond RAG: Building Knowledge Systems That Actually Work'. The speaker is a principal engineer at a Fortune 500 company. Target conference: a major AI/ML conference."
+    },
+    {
+      "id": "professional-05",
+      "category": "professional",
+      "label": "Customer Success Email",
+      "prompt": "Write a check-in email from a Customer Success Manager to a client who has been using the platform for 90 days. Usage data shows they've only activated 2 of 5 purchased modules. Be helpful, not pushy."
+    },
+    {
+      "id": "professional-06",
+      "category": "professional",
+      "label": "Board Deck Narrative",
+      "prompt": "Write the narrative slide text for a quarterly board meeting. Topic: product roadmap update. 3 features shipped, 2 delayed. ARR grew 22% but NRR dropped from 115% to 108%. Be candid."
+    },
+    {
+      "id": "content-01",
+      "category": "content",
+      "label": "How-To Guide Intro",
+      "prompt": "Write the introduction to a guide titled 'How to Build Your First AI Agent in 2025'. Target audience: developers with Python experience but no AI/ML background. 200 words."
+    },
+    {
+      "id": "content-02",
+      "category": "content",
+      "label": "Comparison Article",
+      "prompt": "Write the introduction and framework section of an article comparing three project management tools (Notion, Linear, Asana) for engineering teams of 10-30 people. Be objective, not affiliate-marketing-ish."
+    },
+    {
+      "id": "content-03",
+      "category": "content",
+      "label": "Thought Leadership Post",
+      "prompt": "Write a 250-word LinkedIn thought leadership post about why most companies are implementing AI wrong. The author is a CTO with 20 years of experience. Avoid buzzwords. Be specific with examples."
+    },
+    {
+      "id": "content-04",
+      "category": "content",
+      "label": "Onboarding Welcome Message",
+      "prompt": "Write the welcome message for a SaaS product's onboarding flow. The product is a CRM for freelancers and solopreneurs. This is the first thing they see after signing up. Max 80 words. Make it warm but efficient."
+    },
+    {
+      "id": "content-05",
+      "category": "content",
+      "label": "Feature Announcement",
+      "prompt": "Write a feature announcement blog post for a new AI-powered search feature in a documentation platform. The feature lets users ask questions in natural language instead of keyword search. 200 words."
+    },
+    {
+      "id": "content-06",
+      "category": "content",
+      "label": "Community Guidelines",
+      "prompt": "Write community guidelines for an online forum for indie game developers. Cover: respectful discourse, self-promotion rules, feedback culture, and content moderation. Keep it human and not corporate. 250 words."
+    }
+  ]
+}

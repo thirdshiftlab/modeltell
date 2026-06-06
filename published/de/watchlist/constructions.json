@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Grammatical constructions disproportionately used by LLMs. These are harder to detect than individual words and represent deeper stylistic patterns.",
+  "generated_at": "2026-06-05T18:55:44.042Z",
+  "constructions": [
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "description": "Dreiteilige Aufzählungen, oft mit ansteigender Komplexität oder Steigerung",
+      "severity": "high",
+      "regex": "\\b([A-Za-zÄÖÜäöüß]+),\\s+([A-Za-zÄÖÜäöüß]+)\\s+und\\s+([A-Za-zÄÖÜäöüß]+)\\b",
+      "avg_frequency": 4.56,
+      "examples": [
+        "automatisiert, verständlich und speziell",
+        "Umsatztreiber, Kaufbarrieren und Trends",
+        "Kampagnen, Sortimente und Lagerbestände"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gpt-5.5",
+          "per_1k": 11.61
+        },
+        {
+          "model": "gpt-5.4-mini",
+          "per_1k": 10.65
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 4.46
+        }
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "description": "Eröffnung mit „(Egal,) ob X oder Y“, um Publikums-Inklusivität vorzutäuschen",
+      "severity": "critical",
+      "regex": "\\b(?:egal,?\\s+)?ob\\s+\\S[^.?!]{2,45}?\\s+oder\\s+\\S",
+      "avg_frequency": 0.44,
+      "examples": [
+        "egal ob im Homeoffice, unterwegs oder i",
+        "Ob laute Baustelle, lebhafte Cafés oder d",
+        "egal ob bei wichtigen Calls, fokussierter Arbeit oder e"
+      ],
+      "worst_offenders": [
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 1.34
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "per_1k": 0.81
+        },
+        {
+          "model": "claude-sonnet-4.6",
+          "per_1k": 0.57
+        }
+      ]
+    },
+    {
+      "id": "hedge_opening",
+      "label": "Absichernde Eröffnung",
+      "description": "Weichmacher-Floskeln, die keine Information hinzufügen",
+      "severity": "high",
+      "regex": "\\bes\\s+(?:ist\\s+(?:wichtig|entscheidend|hervorzuheben|erwähnenswert)|sei\\s+(?:erwähnt|angemerkt|betont|darauf\\s+hingewiesen)|gilt\\s+(?:festzuhalten|zu\\s+beachten))\\b",
+      "avg_frequency": 0,
+      "examples": [],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "description": "Pseudo-dramatische Kontrast-Konstruktion",
+      "severity": "high",
+      "regex": "\\bnicht\\s+nur\\s+[^.?!]{2,60}?,?\\s+sondern\\s+(?:auch\\s+)?",
+      "avg_frequency": 1.31,
+      "examples": [
+        "nicht nur Expertise, sondern auch ",
+        "nicht nur Beratung verkaufen, sondern auch ",
+        "nicht nur die Sicherheit, sondern auch "
+      ],
+      "worst_offenders": [
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 2.61
+        },
+        {
+          "model": "gpt-5.4-mini",
+          "per_1k": 2.25
+        },
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 1.83
+        }
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "description": "Sätze, die pseudo-autoritativ mit „Durch …“ oder „Indem …“ beginnen",
+      "severity": "medium",
+      "regex": "(?:^|[.!?]\\s+)(?:Durch|Indem)\\s+\\S",
+      "avg_frequency": 0.29,
+      "examples": [
+        ". Durch d",
+        ".\n\nDurch d",
+        ". Durch u"
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 1.51
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.85
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 0.38
+        }
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "„In-der-heutigen-Welt“",
+      "description": "Eröffnung mit „In der heutigen [Adjektiv] Welt/Zeit/Landschaft“",
+      "severity": "critical",
+      "regex": "\\bin\\s+(?:der\\s+heutigen|unserer\\s+heutigen)\\s+(?:[A-Za-zÄÖÜäöüß]+\\s+){0,2}(?:welt|zeit|ära|landschaft|geschäftswelt|wirtschaft|gesellschaft)|in\\s+einer\\s+welt,\\s+in\\s+der",
+      "avg_frequency": 0,
+      "examples": [
+        "in einer Welt, in der"
+      ],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0.06
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "imagine_opener",
+      "label": "„Stellen-Sie-sich-vor“-Eröffnung",
+      "description": "Eröffnung mit „Stellen Sie sich vor“, um erzwungene Aufmerksamkeit zu erzeugen",
+      "severity": "medium",
+      "regex": "(?:^|[.!?]\\s+)stell(?:en\\s+sie\\s+sich|\\s+dir)\\s+(?:einmal\\s+|mal\\s+)?(?:[^.?!]{2,40}?\\s+)?vor",
+      "avg_frequency": 0.05,
+      "examples": [
+        "Stellen Sie sich vor"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 0.27
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0.14
+        },
+        {
+          "model": "qwen3.7-max",
+          "per_1k": 0.12
+        }
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "description": "Gedankenstrich für dramatischen Effekt mitten im Satz",
+      "severity": "medium",
+      "regex": "[A-Za-zÄÖÜäöüß]+\\s+[\\u2014\\u2013]\\s+[A-Za-zÄÖÜäöüß]+",
+      "avg_frequency": 9.89,
+      "examples": [
+        "Analysen – smarter",
+        "Entscheidungen – automatisiert",
+        "Datenanalyse – einfach"
+      ],
+      "worst_offenders": [
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 17.83
+        },
+        {
+          "model": "claude-sonnet-4.6",
+          "per_1k": 17.35
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 14.63
+        }
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "description": "Häufung von Aktionsverben für künstliche Energie",
+      "severity": "high",
+      "regex": "\\b(?:optimier|maximier|transformier|revolutionier|ermöglich|vorantreib|beschleunig|skalier|steiger|freisetz|gestalt|effizienzsteiger|katapultier|befähig|stärk)[a-zäöüß]*",
+      "avg_frequency": 5.69,
+      "examples": [
+        "Steigern",
+        "Optimieren",
+        "optimieren"
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 9.03
+        },
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 8.59
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 8.41
+        }
+      ]
+    },
+    {
+      "id": "lets_dive",
+      "label": "„Lassen-Sie-uns“-Überleitung",
+      "description": "Umgangssprachliche Überleitungen, die Abschnittswechsel ankündigen",
+      "severity": "medium",
+      "regex": "\\blass(?:en\\s+sie\\s+uns|t\\s+uns)\\s+(?:gemeinsam\\s+)?(?:einen\\s+(?:genaueren\\s+)?blick|eintauchen|erkunden|näher\\s+betrachten|aufschlüsseln|werfen)",
+      "avg_frequency": 0,
+      "examples": [],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0
+        },
+        {
+          "model": "claude-opus-4.8",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Doppelpunkt-Liste",
+      "description": "Aufzählungen, die mit einem Doppelpunkt-Satz eingeleitet werden",
+      "severity": "medium",
+      "regex": "\\b(?:folgende|diese|hier\\s+sind|im\\s+folgenden|die\\s+(?:wichtigsten|drei|vier|fünf))\\s+(?:[A-Za-zÄÖÜäöüß]+\\s+){0,2}(?:vorteile|punkte|gründe|aspekte|merkmale|schritte|säulen|prinzipien|bereiche)\\b[^:]{0,20}:",
+      "avg_frequency": 0.01,
+      "examples": [
+        "Hier sind drei wichtige Vorteile:"
+      ],
+      "worst_offenders": [
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.08
+        },
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 0.07
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorische Frage als Hook",
+      "description": "Fragen als Aufmerksamkeits-Köder, besonders am Anfang",
+      "severity": "medium",
+      "regex": "\\b(?:klingt\\s+das\\s+bekannt|kommt\\s+ihnen\\s+das\\s+bekannt|sind\\s+sie\\s+bereit|was\\s+(?:bedeutet|heißt)\\s+das|haben\\s+sie\\s+sich\\s+(?:schon\\s+)?(?:einmal\\s+)?gefragt|kennen\\s+sie\\s+das)\\b[^?]{0,40}\\?",
+      "avg_frequency": 0.04,
+      "examples": [
+        "was bedeutet das eigentlich in der Praxis?"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.1-pro",
+          "per_1k": 0.4
+        },
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0.06
+        },
+        {
+          "model": "claude-opus-4.7",
+          "per_1k": 0
+        }
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "description": "Abschluss mit vagen, zukunftsgerichteten Aussagen",
+      "severity": "high",
+      "regex": "\\b(?:die\\s+zukunft\\s+(?:ist|von|gehört|beginnt)|blicken\\s+wir\\s+(?:gemeinsam\\s+)?nach\\s+vorn|gemeinsam\\s+in\\s+die\\s+zukunft|zukunftssicher|zukunftsweisend|wegweisend)\\b",
+      "avg_frequency": 0.06,
+      "examples": [
+        "die Zukunft ist",
+        "zukunftssicher",
+        "Die Zukunft ist"
+      ],
+      "worst_offenders": [
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 0.51
+        },
+        {
+          "model": "deepseek-v4-pro",
+          "per_1k": 0.1
+        },
+        {
+          "model": "llama-4-maverick",
+          "per_1k": 0.08
+        }
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "description": "Erklärende Klammer-Einschübe, die über-erklären",
+      "severity": "low",
+      "regex": "\\([^)]{5,60}\\)",
+      "avg_frequency": 2.48,
+      "examples": [
+        "(Return on Ad Spend)",
+        "(Beschreibungen)",
+        "(+40 % im Vergleich zum Vormonat)"
+      ],
+      "worst_offenders": [
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 6.78
+        },
+        {
+          "model": "deepseek-v3.2",
+          "per_1k": 4.15
+        },
+        {
+          "model": "mistral-large-2512",
+          "per_1k": 4.14
+        }
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "description": "Pseudo-Tiefe, die vorgibt, ein Wesen freizulegen",
+      "severity": "medium",
+      "regex": "\\b(?:im\\s+kern|im\\s+grunde(?:\\s+genommen)?|im\\s+wesentlichen|letztlich\\s+geht\\s+es|im\\s+herzen|im\\s+endeffekt)\\b",
+      "avg_frequency": 0.07,
+      "examples": [
+        "Im Kern",
+        "im Kern"
+      ],
+      "worst_offenders": [
+        {
+          "model": "claude-opus-4.6",
+          "per_1k": 0.3
+        },
+        {
+          "model": "gemini-3.5-flash",
+          "per_1k": 0.27
+        },
+        {
+          "model": "deepseek-v4-pro",
+          "per_1k": 0.1
+        }
+      ]
+    }
+  ]
+}

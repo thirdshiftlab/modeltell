@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thirdshiftlab.github.io/modeltell/sitemap.xml

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-05T18:55:43.547Z",
+  "tiers": {
+    "frontier": {
+      "label": "Frontier",
+      "color": "#e63946",
+      "model_count": 5,
+      "models": [
+        "claude-opus-4.8",
+        "claude-opus-4.7",
+        "claude-opus-4.6",
+        "gpt-5.5",
+        "gemini-3.1-pro"
+      ],
+      "avg_radar": {
+        "tricolonDensity": 4.06,
+        "hedgeDensity": 0.28,
+        "powerVerbDensity": 1.52,
+        "pseudoInclusivity": 0.06,
+        "escalationPatterns": 2.77,
+        "futureFiller": 0.51,
+        "emDashFreq": 8.36,
+        "formattingDensity": 31.92
+      }
+    },
+    "mid": {
+      "label": "Mid-Tier",
+      "color": "#457b9d",
+      "model_count": 3,
+      "models": [
+        "claude-sonnet-4.6",
+        "gpt-5.4-mini",
+        "gemini-3.5-flash"
+      ],
+      "avg_radar": {
+        "tricolonDensity": 4.83,
+        "hedgeDensity": 0.24,
+        "powerVerbDensity": 1.4,
+        "pseudoInclusivity": 0.07,
+        "escalationPatterns": 3.41,
+        "futureFiller": 0.77,
+        "emDashFreq": 6.77,
+        "formattingDensity": 35.27
+      }
+    },
+    "opensource": {
+      "label": "Open Source",
+      "color": "#2a9d8f",
+      "model_count": 5,
+      "models": [
+        "llama-4-maverick",
+        "deepseek-v4-pro",
+        "deepseek-v3.2",
+        "mistral-large-2512",
+        "qwen3.7-max"
+      ],
+      "avg_radar": {
+        "tricolonDensity": 4.29,
+        "hedgeDensity": 0.19,
+        "powerVerbDensity": 3,
+        "pseudoInclusivity": 0.2,
+        "escalationPatterns": 0.94,
+        "futureFiller": 0.86,
+        "emDashFreq": 6.04,
+        "formattingDensity": 29.9
+      }
+    }
+  }
+}

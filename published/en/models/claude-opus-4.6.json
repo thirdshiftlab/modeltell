@@ -1,0 +1,568 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "claude-opus-4.6",
+    "label": "Claude Opus 4.6",
+    "provider": "openrouter",
+    "api_model": "anthropic/claude-opus-4.6",
+    "tier": "frontier",
+    "family": "claude-opus",
+    "version": "4.6"
+  },
+  "analyzed_at": "2026-06-05T18:55:43.547Z",
+  "run_id": "2026-06-03_v2",
+  "corpus": {
+    "total_words": 25308,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.27,
+    "avg_sentence_length": 15.1,
+    "sentence_length_std_dev": 15.1
+  },
+  "radar": {
+    "tricolon_density": 2.7,
+    "hedge_density": 0.2,
+    "power_verb_density": 1.03,
+    "pseudo_inclusivity": 0.04,
+    "escalation_patterns": 6.62,
+    "future_filler": 0.4,
+    "em_dash_frequency": 11.8,
+    "formatting_density": 35.9
+  },
+  "top_words": [
+    {
+      "word": "full-blown",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "month-end",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "breakout",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "duct-taped",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "credit",
+      "frequency_per_1k": 0.34,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "card",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "aurapod",
+      "frequency_per_1k": 0.41,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "filters",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "cloud-soft",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "toggle",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "questionable",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "professional-grade",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "foldable",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "risk-free",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "lawn",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "mower",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "ultra-soft",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "invisible",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "most-used",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "fought",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "grenade",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "flurry",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "leaked",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "quotes",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "firepower",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "everyone's",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "blueprints",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "candy",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "ever-thicker",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "bluffing",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "geopolitics",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "publication",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "unprompted",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "jumps",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "happiness",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "sleeps",
+      "frequency_per_1k": 0.21,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "coaching",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "stuffing",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "sentryshield",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "vulnerability",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "simulated",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "involving",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "ciso",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "cybershield",
+      "frequency_per_1k": 0.14,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "clock",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "shieldpoint's",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "slowest",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "compostability",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "once-in-a-generation",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    },
+    {
+      "word": "seventy-four",
+      "frequency_per_1k": 0.07,
+      "distinctiveness": 9.24,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "severity": "medium",
+      "count": 166,
+      "per_1k_words": 6.58,
+      "ci_low": 5,
+      "ci_high": 8.13,
+      "q_value": 0.013,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "decisions — in",
+        "truth — no",
+        "dashboard — no",
+        "compromise — whether",
+        "charge — 10"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "severity": "low",
+      "count": 87,
+      "per_1k_words": 3.45,
+      "ci_low": 1.75,
+      "ci_high": 5.36,
+      "q_value": 0.0703,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(30 characters max)",
+        "(90 characters max)",
+        "(30 chars)",
+        "(24 chars)",
+        "(26 chars)"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "severity": "high",
+      "count": 68,
+      "per_1k_words": 2.7,
+      "ci_low": 2.02,
+      "ci_high": 3.52,
+      "q_value": 0.0361,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "patterns, seasonality, and market",
+        "Amazon, wholesale, and ad",
+        "marketplaces, ads, and fulfillment",
+        "meetings, music, and transparency",
+        "laptop, phone, and tablet"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "severity": "high",
+      "count": 26,
+      "per_1k_words": 1.03,
+      "ci_low": 0.61,
+      "ci_high": 1.57,
+      "q_value": 0.1594,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "optimize",
+        "accelerate",
+        "drive",
+        "Revolutionize",
+        "Drive"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Future-Forward Closing",
+      "severity": "high",
+      "count": 8,
+      "per_1k_words": 0.32,
+      "ci_low": 0.12,
+      "ci_high": 0.55,
+      "q_value": 0.5264,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "the future of",
+        "Looking Ahead",
+        "poised to",
+        "Looking ahead"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "severity": "medium",
+      "count": 5,
+      "per_1k_words": 0.2,
+      "ci_low": 0.04,
+      "ci_high": 0.4,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "fundamentally",
+        "at its core"
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "In-Today's-Landscape",
+      "severity": "critical",
+      "count": 2,
+      "per_1k_words": 0.08,
+      "ci_low": 0,
+      "ci_high": 0.22,
+      "q_value": 0.9078,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "in a world",
+        "In today's logistics landscape"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "Whether-You're Pseudo-Inclusivity",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.04,
+      "ci_low": 0,
+      "ci_high": 0.14,
+      "q_value": 0.578,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "whether you're navigating back-to-back video calls or "
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "Not-Just-But Escalation",
+      "severity": "high",
+      "count": 1,
+      "per_1k_words": 0.04,
+      "ci_low": 0,
+      "ci_high": 0.13,
+      "q_value": 0.6099,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "not just whether an integration exists, but"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "By-Gerund Instruction",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.04,
+      "ci_low": 0,
+      "ci_high": 0.15,
+      "q_value": 0.114,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ".\n\nBy combining"
+      ]
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Colon-Introduced List",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.04,
+      "ci_low": 0,
+      "ci_high": 0.13,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Key benefits include:"
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorical Question Hook",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.04,
+      "ci_low": 0,
+      "ci_high": 0.13,
+      "q_value": 0.7323,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Sound familiar?"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 6,
+    "Number/Stat opener": 6,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 8,
+    "Other": 70
+  },
+  "closer_distribution": {
+    "Future-forward": 1,
+    "Call to action": 5,
+    "Question close": 0,
+    "Together/partnership": 2,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 82
+  },
+  "structure": {
+    "bullet_point_ratio": 0.17,
+    "bold_per_1k_words": 17.4,
+    "headers_per_1k_words": 6.8,
+    "exclamations_per_1k_words": 0.6,
+    "em_dashes_per_1k_words": 11.8,
+    "colons_per_1k_words": 7.8
+  }
+}

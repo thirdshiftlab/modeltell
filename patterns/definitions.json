@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Modeltell - Pattern definitions for detecting linguistic fingerprints. Covers both lexical (word-level) and syntactic (grammatical construction) patterns."
+  },
+
+  "syntactic_patterns": [
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "description": "Three-part lists, especially with ascending syllable count or dramatic escalation",
+      "examples": [
+        "innovative, scalable, and transformative",
+        "faster, smarter, and more efficient",
+        "plan, execute, and deliver"
+      ],
+      "regex": "\\b(\\w+),\\s+(\\w+),\\s+and\\s+(\\w+)\\b",
+      "regex_extended": "\\b([\\w\\s-]+),\\s+([\\w\\s-]+),\\s+and\\s+([\\w\\s-]+?)\\b[.!;]",
+      "severity": "high",
+      "notes": "LLMs massively overuse tricolons compared to human writers. Check for ascending complexity pattern."
+    },
+    {
+      "id": "whether_opener",
+      "label": "Whether-You're Pseudo-Inclusivity",
+      "description": "Opening with 'Whether you're X or Y' to fake audience inclusivity",
+      "examples": [
+        "Whether you're a seasoned professional or just starting out",
+        "Whether you're a small business or a large enterprise",
+        "Whether you're looking to scale or optimize"
+      ],
+      "regex": "whether\\s+you(?:'re|\\s+are)\\s+.{5,60}\\s+or\\s+",
+      "severity": "critical",
+      "notes": "Almost exclusively an LLM construction. Extremely rare in human-written copy."
+    },
+    {
+      "id": "hedge_opening",
+      "label": "Hedging Opener",
+      "description": "Softening phrases that add no information",
+      "examples": [
+        "It's worth noting that",
+        "It's important to remember that",
+        "It goes without saying that",
+        "It's no secret that",
+        "It's safe to say that"
+      ],
+      "regex": "it(?:'s|\\s+is)\\s+(worth|important|no secret|safe|fair)\\s+(?:to\\s+)?(not(?:ing|e)|remember|say|mention)",
+      "severity": "high",
+      "notes": "Filler construction. Human writers use occasionally; LLMs use constantly."
+    },
+    {
+      "id": "not_just_but",
+      "label": "Not-Just-But Escalation",
+      "description": "Pseudo-dramatic contrast construction",
+      "examples": [
+        "not just a tool, but a partner",
+        "not just about efficiency, but about transformation",
+        "doesn't just meet expectations - it exceeds them"
+      ],
+      "regex": "not\\s+just\\s+.{3,50}(?:,\\s*but|\\u2014\\s*(?:it(?:'s)?\\s+)?)",
+      "severity": "high",
+      "notes": "Classic LLM upsell pattern. Frequency is the tell - humans use it sometimes, LLMs use it constantly."
+    },
+    {
+      "id": "by_gerund",
+      "label": "By-Gerund Instruction",
+      "description": "Starting sentences with 'By [verb]ing' as a pseudo-authoritative construction",
+      "examples": [
+        "By leveraging cutting-edge technology",
+        "By streamlining your workflow",
+        "By combining innovation with expertise"
+      ],
+      "regex": "(?:^|[.!?]\\s+)by\\s+\\w+ing\\b",
+      "severity": "medium",
+      "notes": "Common in human writing too, but LLMs use it 3-5x more frequently."
+    },
+    {
+      "id": "landscape_world",
+      "label": "In-Today's-Landscape",
+      "description": "Opening with 'In today's [adjective] landscape/world/era'",
+      "examples": [
+        "In today's fast-paced digital landscape",
+        "In today's rapidly evolving world",
+        "In an era of unprecedented change"
+      ],
+      "regex": "in\\s+(?:today(?:'s)?|an?|the\\s+current)\\s+(?:\\w+\\s+){0,2}(?:landscape|world|era|environment|age|marketplace|ecosystem)",
+      "severity": "critical",
+      "notes": "One of the strongest LLM signals. Near-zero in quality human copywriting."
+    },
+    {
+      "id": "imagine_opener",
+      "label": "Imagine-This Opening",
+      "description": "Opening with 'Imagine' to create forced engagement",
+      "examples": [
+        "Imagine a world where",
+        "Imagine being able to",
+        "Picture this:"
+      ],
+      "regex": "(?:^|[.!?]\\s+)(?:imagine|picture\\s+this)\\s+",
+      "severity": "medium",
+      "notes": "Used by humans too (especially in talks), but LLMs default to it disproportionately."
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "description": "Using em-dash for dramatic effect mid-sentence",
+      "examples": [
+        "one platform - endless possibilities",
+        "the result - a 73% reduction in incidents",
+        "and the best part - it's completely free"
+      ],
+      "regex": "\\w+\\s+[\\u2014\\u2013]\\s+\\w+",
+      "severity": "medium",
+      "notes": "Em-dash frequency per word is a strong model discriminator. Some models use 5-10x human baseline."
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "description": "Clustering action verbs for artificial energy",
+      "examples": [
+        "drive growth, boost engagement, and accelerate revenue",
+        "streamline, optimize, and transform",
+        "empower teams to innovate and deliver"
+      ],
+      "regex": "(?:drive|boost|accelerate|streamline|optimize|transform|empower|unlock|elevate|supercharge|revolutionize|harness|amplify)\\b",
+      "severity": "high",
+      "notes": "Count density of power verbs per 100 words. LLMs cluster them; humans spread them out."
+    },
+    {
+      "id": "lets_dive",
+      "label": "Let's-Dive Transition",
+      "description": "Conversational transitions that signal section breaks",
+      "examples": [
+        "Let's dive in",
+        "Let's explore how",
+        "Let's take a closer look",
+        "Let's break it down"
+      ],
+      "regex": "let(?:'s|\\s+us)\\s+(?:dive|explore|take\\s+a\\s+(?:closer\\s+)?look|break\\s+(?:it|this)\\s+down|unpack)",
+      "severity": "medium",
+      "notes": "Section transition filler. Human writers vary transitions more."
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Colon-Introduced List",
+      "description": "Setting up bullet points with a colon clause",
+      "examples": [
+        "Here's what sets us apart:",
+        "Key benefits include:",
+        "Our approach is built on three pillars:"
+      ],
+      "regex": "(?:here(?:'s|\\s+is|\\s+are)|key\\s+\\w+\\s+include|(?:three|four|five)\\s+(?:key\\s+)?(?:pillars|principles|areas|reasons))\\s*:",
+      "severity": "medium",
+      "notes": "Structural pattern. Compare colon-to-list ratio between models."
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorical Question Hook",
+      "description": "Using questions as engagement bait, especially at the start",
+      "examples": [
+        "What if there was a better way?",
+        "Sound familiar?",
+        "But what does this mean for your business?"
+      ],
+      "regex": "(?:what\\s+if|sound\\s+familiar|but\\s+what\\s+does|ever\\s+wonder|ready\\s+to|tired\\s+of|looking\\s+for)\\s*.{0,40}\\?",
+      "severity": "medium",
+      "notes": "Track position - LLMs cluster these at section starts. Humans distribute more evenly."
+    },
+    {
+      "id": "future_forward",
+      "label": "Future-Forward Closing",
+      "description": "Ending with vague future-facing statements",
+      "examples": [
+        "The future of X is here",
+        "As we move forward",
+        "Looking ahead",
+        "As we continue to evolve"
+      ],
+      "regex": "(?:the\\s+future\\s+(?:of|is)|as\\s+we\\s+(?:move|look|continue|step)\\s+(?:forward|ahead)|looking\\s+ahead|poised\\s+(?:to|for))",
+      "severity": "high",
+      "notes": "Meaningless closing filler. Strong LLM signal especially in business content."
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "description": "Parenthetical clarifications that over-explain",
+      "examples": [
+        "(and that's a good thing)",
+        "(yes, really)",
+        "(think: Slack meets Notion)"
+      ],
+      "regex": "\\([^)]{5,60}\\)",
+      "severity": "low",
+      "notes": "Track frequency. Some models over-use parentheticals for false intimacy."
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "description": "Pseudo-depth construction claiming to reveal essence",
+      "examples": [
+        "At its core",
+        "At the heart of",
+        "Fundamentally",
+        "When you strip it all away"
+      ],
+      "regex": "(?:at\\s+(?:its|the|our)\\s+(?:core|heart|foundation)|fundamentally|when\\s+you\\s+strip\\s+(?:it|everything))",
+      "severity": "medium",
+      "notes": "Models use this to signal depth without providing it."
+    }
+  ],
+
+  "lexical_watchlist": {
+    "description": "Words to track the frequency of. These are known LLM-associated terms. NOTE: the pipeline measures their frequency and cross-model distinctiveness (TF-IDF vs the aggregate of all models), NOT overuse versus a human baseline - a matched human corpus is not yet implemented.",
+    "power_words": [
+      "seamless", "seamlessly", "leverage", "leveraging",
+      "robust", "cutting-edge", "state-of-the-art",
+      "game-changer", "game-changing", "groundbreaking",
+      "revolutionary", "revolutionize", "transformative",
+      "innovative", "innovation", "disruptive",
+      "empower", "empowering", "unlock", "unlocking",
+      "elevate", "supercharge", "turbocharge",
+      "streamline", "optimize", "maximize",
+      "harness", "harnessing", "spearhead",
+      "foster", "fostering", "cultivate",
+      "navigate", "navigating", "delve", "delving",
+      "synergy", "synergies", "holistic",
+      "comprehensive", "unparalleled", "unprecedented"
+    ],
+    "filler_phrases": [
+      "at the end of the day",
+      "it's important to note",
+      "moving forward",
+      "in terms of",
+      "when it comes to",
+      "the bottom line is",
+      "that being said",
+      "having said that",
+      "needless to say",
+      "goes without saying",
+      "last but not least"
+    ],
+    "hedge_words": [
+      "arguably", "perhaps", "essentially",
+      "effectively", "virtually", "relatively",
+      "generally", "typically", "potentially",
+      "certainly", "definitely", "absolutely"
+    ],
+    "connector_overuse": [
+      "moreover", "furthermore", "additionally",
+      "consequently", "nevertheless", "nonetheless",
+      "accordingly", "subsequently", "henceforth"
+    ]
+  },
+
+  "analysis_config": {
+    "stopwords_source": "english_extended",
+    "min_word_length": 3,
+    "min_document_frequency": 0.1,
+    "tfidf_baseline": "cross_model_aggregate",
+    "ngram_range": [1, 3],
+    "notes": "FUTURE WORK (not implemented): compute TF-IDF against a matched human-written baseline corpus (e.g. published marketing copy, real press releases, human blog posts) to claim 'overuse vs humans'. Today the baseline is the aggregate of all models, so scores express cross-model distinctiveness only."
+  }
+}

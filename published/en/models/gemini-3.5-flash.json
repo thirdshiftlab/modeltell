@@ -1,0 +1,500 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "gemini-3.5-flash",
+    "label": "Gemini 3.5 Flash",
+    "provider": "openrouter",
+    "api_model": "google/gemini-3.5-flash",
+    "tier": "mid",
+    "family": "gemini-flash",
+    "version": "3.5"
+  },
+  "analyzed_at": "2026-06-05T18:55:43.547Z",
+  "run_id": "2026-06-03_v2",
+  "corpus": {
+    "total_words": 6440,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.459,
+    "avg_sentence_length": 16.3,
+    "sentence_length_std_dev": 13.8
+  },
+  "radar": {
+    "tricolon_density": 3.31,
+    "hedge_density": 0.47,
+    "power_verb_density": 2.68,
+    "pseudo_inclusivity": 0,
+    "escalation_patterns": 0.16,
+    "future_filler": 1.5799999999999998,
+    "em_dash_frequency": 4.3,
+    "formatting_density": 43.9
+  },
+  "top_words": [
+    {
+      "word": "high-converting",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "bundles",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "zenith",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "aerosilence",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "cancelation",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "back-",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "apex-",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "acoustics",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "transmit",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "rebels",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "double-bolting",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "shrinks",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "powerhouses",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "towering",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "banner",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "viability",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "unconstrained",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "fenced",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "vanishes",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "leased",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "rebellious",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "humanity's",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "handbook",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "high-performing",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "fearlessly",
+      "frequency_per_1k": 0.54,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "barrage",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "apex",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "pollute",
+      "frequency_per_1k": 0.54,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "bioplastics",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "cargo",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "pallets",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "thin-film",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "accepted",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "unavoidable",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "cost-efficiency",
+      "frequency_per_1k": 0.54,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "ocean-safe",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "machinery",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "modifications",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "conglomerates",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "eighty",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "tolerated",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "mimics",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "pitching",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "bright",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "length",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "confirms",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "auto-complete",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "enterprise-wide",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "fast-tracking",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    },
+    {
+      "word": "pay-with-card",
+      "frequency_per_1k": 0.27,
+      "distinctiveness": 36.14,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "severity": "low",
+      "count": 27,
+      "per_1k_words": 4.25,
+      "ci_low": 2.42,
+      "ci_high": 6.57,
+      "q_value": 0.013,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "(Max 30 characters each)",
+        "(+40% MoM)",
+        "(based on current burn of $[X]K/month)",
+        "($29/user/month)",
+        "(up 40% MoM)"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "severity": "high",
+      "count": 21,
+      "per_1k_words": 3.31,
+      "ci_low": 1.98,
+      "ci_high": 4.65,
+      "q_value": 0.3216,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "store, ads, and inventory",
+        "Meta, Google, and email",
+        "campaigns, creatives, and channels",
+        "breakthroughs, bottlenecks, and battles",
+        "durability, stretch, and cost"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "severity": "high",
+      "count": 17,
+      "per_1k_words": 2.68,
+      "ci_low": 1.3,
+      "ci_high": 4.46,
+      "q_value": 0.1861,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "unlock",
+        "optimize",
+        "transform",
+        "accelerate",
+        "Revolutionize"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Future-Forward Closing",
+      "severity": "high",
+      "count": 9,
+      "per_1k_words": 1.42,
+      "ci_low": 0.62,
+      "ci_high": 2.31,
+      "q_value": 0.013,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "the future of"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "severity": "medium",
+      "count": 3,
+      "per_1k_words": 0.47,
+      "ci_low": 0,
+      "ci_high": 1.04,
+      "q_value": 0.0737,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "at our core",
+        "fundamentally"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "By-Gerund Instruction",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.16,
+      "ci_low": 0,
+      "ci_high": 0.5,
+      "q_value": 0.5486,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". By harnessing"
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "In-Today's-Landscape",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.16,
+      "ci_low": 0,
+      "ci_high": 0.56,
+      "q_value": 0.7176,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "In a world"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.16,
+      "ci_low": 0,
+      "ci_high": 0.57,
+      "q_value": 0.0216,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "00 – 21"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 8,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 1,
+    "Gerund opener (-ing)": 7,
+    "Other": 74
+  },
+  "closer_distribution": {
+    "Future-forward": 6,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 3,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 81
+  },
+  "structure": {
+    "bullet_point_ratio": 0.23,
+    "bold_per_1k_words": 24.7,
+    "headers_per_1k_words": 5,
+    "exclamations_per_1k_words": 3.1,
+    "em_dashes_per_1k_words": 4.3,
+    "colons_per_1k_words": 24.7
+  }
+}

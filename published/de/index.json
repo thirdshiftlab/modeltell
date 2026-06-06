@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "name": "Modeltell",
+    "url": "https://github.com/thirdshiftlab/modeltell",
+    "license": "MIT",
+    "description": "Computational linguistics analysis of AI-generated text - lexical and syntactic fingerprints across models and versions."
+  },
+  "generated_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "locale": "de",
+  "prompt_count": 30,
+  "runs_per_prompt": 3,
+  "models": [
+    {
+      "id": "claude-opus-4.8",
+      "label": "Claude Opus 4.8",
+      "tier": "frontier",
+      "file": "models/claude-opus-4.8.json",
+      "family": "claude-opus",
+      "version": "4.8"
+    },
+    {
+      "id": "claude-opus-4.7",
+      "label": "Claude Opus 4.7",
+      "tier": "frontier",
+      "file": "models/claude-opus-4.7.json",
+      "family": "claude-opus",
+      "version": "4.7"
+    },
+    {
+      "id": "claude-opus-4.6",
+      "label": "Claude Opus 4.6",
+      "tier": "frontier",
+      "file": "models/claude-opus-4.6.json",
+      "family": "claude-opus",
+      "version": "4.6"
+    },
+    {
+      "id": "gpt-5.5",
+      "label": "GPT-5.5",
+      "tier": "frontier",
+      "file": "models/gpt-5.5.json",
+      "family": "gpt",
+      "version": "5.5"
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "label": "Gemini 3.1 Pro",
+      "tier": "frontier",
+      "file": "models/gemini-3.1-pro.json",
+      "family": "gemini-pro",
+      "version": "3.1"
+    },
+    {
+      "id": "claude-sonnet-4.6",
+      "label": "Claude Sonnet 4.6",
+      "tier": "mid",
+      "file": "models/claude-sonnet-4.6.json",
+      "family": "claude-sonnet",
+      "version": "4.6"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "label": "GPT-5.4 Mini",
+      "tier": "mid",
+      "file": "models/gpt-5.4-mini.json",
+      "family": "gpt-mini",
+      "version": "5.4"
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "label": "Gemini 3.5 Flash",
+      "tier": "mid",
+      "file": "models/gemini-3.5-flash.json",
+      "family": "gemini-flash",
+      "version": "3.5"
+    },
+    {
+      "id": "llama-4-maverick",
+      "label": "Llama 4 Maverick",
+      "tier": "opensource",
+      "file": "models/llama-4-maverick.json",
+      "family": "llama",
+      "version": "4-maverick"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "label": "DeepSeek V4 Pro",
+      "tier": "opensource",
+      "file": "models/deepseek-v4-pro.json",
+      "family": "deepseek",
+      "version": "4-pro"
+    },
+    {
+      "id": "deepseek-v3.2",
+      "label": "DeepSeek V3.2",
+      "tier": "opensource",
+      "file": "models/deepseek-v3.2.json",
+      "family": "deepseek",
+      "version": "3.2"
+    },
+    {
+      "id": "mistral-large-2512",
+      "label": "Mistral Large (2512)",
+      "tier": "opensource",
+      "file": "models/mistral-large-2512.json",
+      "family": "mistral-large",
+      "version": "2512"
+    },
+    {
+      "id": "qwen3.7-max",
+      "label": "Qwen3.7 Max",
+      "tier": "opensource",
+      "file": "models/qwen3.7-max.json",
+      "family": "qwen",
+      "version": "3.7-max"
+    }
+  ],
+  "files": {
+    "patterns": "patterns/all-patterns.json",
+    "watchlist_words": "watchlist/words.json",
+    "watchlist_constructions": "watchlist/constructions.json",
+    "tier_summary": "comparisons/tier-summary.json",
+    "similarity_matrix": "comparisons/similarity-matrix.json",
+    "delta_matrix": "comparisons/delta-matrix.json"
+  }
+}

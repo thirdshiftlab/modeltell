@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "deepseek-v4-pro",
+    "label": "DeepSeek V4 Pro",
+    "provider": "openrouter",
+    "api_model": "deepseek/deepseek-v4-pro",
+    "tier": "opensource",
+    "family": "deepseek",
+    "version": "4-pro"
+  },
+  "analyzed_at": "2026-06-05T18:55:43.547Z",
+  "run_id": "2026-06-03_v2",
+  "corpus": {
+    "total_words": 21282,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.344,
+    "avg_sentence_length": 15.1,
+    "sentence_length_std_dev": 11.1
+  },
+  "radar": {
+    "tricolon_density": 3.11,
+    "hedge_density": 0.28,
+    "power_verb_density": 1.56,
+    "pseudo_inclusivity": 0,
+    "escalation_patterns": 1.6,
+    "future_filler": 0.52,
+    "em_dash_frequency": 7.6,
+    "formatting_density": 23.3
+  },
+  "top_words": [
+    {
+      "word": "stocked",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "profit-draining",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "overstocking",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "granular",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "sku-level",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "ready-to-share",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "monitors",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "merchandising",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "pre-built",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "quietcomfort",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "muffle",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "sculpts",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "draped",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "breathable",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "soundstage",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "concert",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "six-microphone",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "isolates",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "blurred",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "hums",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "curating",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "awakens",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "drone",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "distant",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "airy",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "stillness",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "open-plan",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "apartment",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "flick",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "rushes",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "soundscape",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "bassline",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "concert-hall",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "supple",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "auraluxe",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "nd-",
+      "frequency_per_1k": 0.16,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "cross-continental",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "deep-diving",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "intuitively",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "grinder",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "blower",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "studio-level",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "graphite",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "roar",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "poker",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "unfold",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "chips",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "prize",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "flooding",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "uncensored",
+      "frequency_per_1k": 0.08,
+      "distinctiveness": 10.85,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "tricolon",
+      "label": "Tricolon (Rule of Three)",
+      "severity": "high",
+      "count": 66,
+      "per_1k_words": 3.11,
+      "ci_low": 2.27,
+      "ci_high": 4.01,
+      "q_value": 0.1495,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "click, cart, and churn",
+        "customer, sales, and inventory",
+        "seasonality, trends, and market",
+        "channels, inventory, and customers",
+        "laptop, phone, and tablet"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Parenthetical Aside",
+      "severity": "low",
+      "count": 42,
+      "per_1k_words": 1.98,
+      "ci_low": 0.92,
+      "ci_high": 3.18,
+      "q_value": 1,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(Max 30 characters)",
+        "(Max 90 characters)",
+        "(Up 40% MoM)",
+        "(+40% MoM)",
+        "(sometimes months)"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power Verb Stacking",
+      "severity": "high",
+      "count": 33,
+      "per_1k_words": 1.56,
+      "ci_low": 1.03,
+      "ci_high": 2.14,
+      "q_value": 0.6899,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Transform",
+        "Unlock",
+        "accelerate",
+        "unlock",
+        "optimize"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Em-Dash Dramatic Pivot",
+      "severity": "medium",
+      "count": 31,
+      "per_1k_words": 1.46,
+      "ci_low": 0.63,
+      "ci_high": 2.52,
+      "q_value": 0.2101,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Pro – Silence",
+        "doing — and",
+        "happen — all",
+        "end — from",
+        "component — that"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Future-Forward Closing",
+      "severity": "high",
+      "count": 10,
+      "per_1k_words": 0.47,
+      "ci_low": 0.22,
+      "ci_high": 0.78,
+      "q_value": 0.9624,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "the future of",
+        "the Future of"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "By-Gerund Instruction",
+      "severity": "medium",
+      "count": 6,
+      "per_1k_words": 0.28,
+      "ci_low": 0.05,
+      "ci_high": 0.56,
+      "q_value": 0.9187,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". By combining",
+        ". By integrating",
+        ".\n\nBy embedding"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "At-Its-Core Pretension",
+      "severity": "medium",
+      "count": 6,
+      "per_1k_words": 0.28,
+      "ci_low": 0.1,
+      "ci_high": 0.51,
+      "q_value": 0.5941,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "fundamentally",
+        "at the heart"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "Not-Just-But Escalation",
+      "severity": "high",
+      "count": 3,
+      "per_1k_words": 0.14,
+      "ci_low": 0,
+      "ci_high": 0.3,
+      "q_value": 0.8351,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "not just queries, but",
+        "not just claim — ",
+        "not just to frustration, but"
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorical Question Hook",
+      "severity": "medium",
+      "count": 2,
+      "per_1k_words": 0.09,
+      "ci_low": 0,
+      "ci_high": 0.25,
+      "q_value": 0.9187,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Ready to take control?",
+        "Looking for “the API endpoint for user permissions?"
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "In-Today's-Landscape",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.05,
+      "ci_low": 0,
+      "ci_high": 0.15,
+      "q_value": 0.6322,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "In an operating environment"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 2,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 8,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 4,
+    "Gerund opener (-ing)": 0,
+    "Other": 76
+  },
+  "closer_distribution": {
+    "Future-forward": 4,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 1,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 85
+  },
+  "structure": {
+    "bullet_point_ratio": 0.15,
+    "bold_per_1k_words": 12.1,
+    "headers_per_1k_words": 1.3,
+    "exclamations_per_1k_words": 0.5,
+    "em_dashes_per_1k_words": 7.6,
+    "colons_per_1k_words": 9.8
+  }
+}

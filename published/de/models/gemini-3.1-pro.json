@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "gemini-3.1-pro",
+    "label": "Gemini 3.1 Pro",
+    "provider": "openrouter",
+    "api_model": "google/gemini-3.1-pro-preview",
+    "tier": "frontier",
+    "family": "gemini-pro",
+    "version": "3.1"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 2560,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.655,
+    "avg_sentence_length": 14.2,
+    "sentence_length_std_dev": 16.1
+  },
+  "radar": {
+    "tricolon_density": 1.21,
+    "hedge_density": 0,
+    "power_verb_density": 4.05,
+    "pseudo_inclusivity": 0.81,
+    "escalation_patterns": 9.31,
+    "future_filler": 0,
+    "em_dash_frequency": 11.7,
+    "formatting_density": 25
+  },
+  "top_words": [
+    {
+      "word": "all-in-one-analyseplattform",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "online-sh",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "online-shop",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "intelligentesten",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "all-in-one-plattform",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "all-in-one",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "noise-cancelling-",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "lieblingscaf",
+      "frequency_per_1k": 1.4,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "kabell",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "remote-alltag",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "kompromisslosem",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "sensationelle",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "durchbrüche",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "gefühlt",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "wochentakt",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "leistungssprüngen",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "schwärmen",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "baupläne",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "rüsten",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "burgmauern",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "lukrative",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "blackboxes",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "bedingungslos",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "chatbot-hype",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "stürzen",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "dramatischerer",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "unüberwindbaren",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "milliarden-dollar-blackboxen",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "geheimnisse",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "rasend",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "rebellische",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "obstkörben",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "kickertischen",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "plakette",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "online-sprachkurs",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "geziel",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "brachte",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "dramat",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "wickeln",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "herkömm",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "gigantischer",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "kurzlebige",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "haushalts-",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "industriefol",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "invest",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "say",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "refining",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "into",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "professional",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    },
+    {
+      "word": "copy",
+      "frequency_per_1k": 0.7,
+      "distinctiveness": 67.17,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 21,
+      "per_1k_words": 8.5,
+      "ci_low": 5.5,
+      "ci_high": 11.78,
+      "q_value": 0.2313,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Umsatz – vollautomatisch",
+        "Vorteile – absolute",
+        "Wohnzimmer – mit",
+        "Giganten – exklusive",
+        "Büro – aber"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 10,
+      "per_1k_words": 4.05,
+      "ci_low": 1.86,
+      "ci_high": 6.71,
+      "q_value": 0.171,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Skalieren",
+        "revolutioniert",
+        "beschleunigt",
+        "Steigere",
+        "stärkste"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 3,
+      "per_1k_words": 1.21,
+      "ci_low": 0,
+      "ci_high": 2.65,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "Todoist, Asana und Co",
+        "einfacher, strukturierter und stressfreier",
+        "einfacher, stressfreier und übersichtlicher"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 3,
+      "per_1k_words": 1.21,
+      "ci_low": 0,
+      "ci_high": 2.8,
+      "q_value": 0.3329,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(Innerhalb einer bestimmten Zeitzone? Let's say EU/Remote)",
+        "(100% Gehalt)",
+        "(Nutzerbindung am 30. Tag nach der Erstanmeldung)"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 2,
+      "per_1k_words": 0.81,
+      "ci_low": 0,
+      "ci_high": 2.2,
+      "q_value": 0.1792,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "Ob im belebten Coworking-Space, im Lieblingscafé oder i",
+        "ob drei oder v"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 2,
+      "per_1k_words": 0.81,
+      "ci_low": 0,
+      "ci_high": 2.08,
+      "q_value": 0.2868,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur stolz, sondern ",
+        "nicht nur visuell zu überzeugen, sondern "
+      ]
+    },
+    {
+      "id": "rhetorical_question",
+      "label": "Rhetorische Frage als Hook",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.4,
+      "ci_low": 0,
+      "ci_high": 1.3,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "was bedeutet das eigentlich in der Praxis?"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 5,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 1,
+    "Other": 84
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 2,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 88
+  },
+  "structure": {
+    "bullet_point_ratio": 0.14,
+    "bold_per_1k_words": 15.2,
+    "headers_per_1k_words": 0,
+    "exclamations_per_1k_words": 6.6,
+    "em_dashes_per_1k_words": 11.7,
+    "colons_per_1k_words": 24.6
+  }
+}

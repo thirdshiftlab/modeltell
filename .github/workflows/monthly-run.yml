@@ -1,0 +1,62 @@
+name: Modeltell - Monthly Run
+
+on:
+  schedule:
+    # First Monday of each month at 06:00 UTC
+    - cron: "0 6 1-7 * 1"
+  workflow_dispatch:
+    inputs:
+      models:
+        description: "Comma-separated model IDs (leave empty for all)"
+        required: false
+        default: ""
+      locale:
+        description: "Corpus language (en | de)"
+        required: false
+        default: "en"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    # All models run through OpenRouter; LOCALE drives prompts/patterns/stopwords.
+    env:
+      USE_OPENROUTER: "1"
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      LOCALE: ${{ github.event.inputs.locale || 'en' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - run: npm install
+
+      - name: Run generation pipeline
+        env:
+          ONLY_MODELS: ${{ github.event.inputs.models }}
+        run: npm run run:all
+
+      - name: Find latest run directory
+        id: find-run
+        run: |
+          RUN_DIR=$(ls -td data/*/ | head -1)
+          echo "run_dir=$RUN_DIR" >> $GITHUB_OUTPUT
+
+      - name: Run lexical analysis
+        run: npm run analyze:lexical -- ${{ steps.find-run.outputs.run_dir }}
+
+      - name: Run syntactic analysis
+        run: npm run analyze:syntactic -- ${{ steps.find-run.outputs.run_dir }}
+
+      - name: Publish community data
+        run: npm run publish:data -- ${{ steps.find-run.outputs.run_dir }}
+
+      - name: Commit results
+        run: |
+          git config user.name "Modeltell Bot"
+          git config user.email "bot@modeltell.dev"
+          git add published/
+          git commit -m "chore(data): monthly run (${LOCALE}) $(date +%Y-%m-%d)" || echo "No changes"
+          git push

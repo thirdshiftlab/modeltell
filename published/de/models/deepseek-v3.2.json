@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "deepseek-v3.2",
+    "label": "DeepSeek V3.2",
+    "provider": "openrouter",
+    "api_model": "deepseek/deepseek-v3.2",
+    "tier": "opensource",
+    "family": "deepseek",
+    "version": "3.2"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 14295,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.474,
+    "avg_sentence_length": 13.2,
+    "sentence_length_std_dev": 8.5
+  },
+  "radar": {
+    "tricolon_density": 3.66,
+    "hedge_density": 0,
+    "power_verb_density": 8.59,
+    "pseudo_inclusivity": 0.28,
+    "escalation_patterns": 8.24,
+    "future_filler": 0.07,
+    "em_dash_frequency": 7.6,
+    "formatting_density": 30.1
+  },
+  "top_words": [
+    {
+      "word": "ki-basierten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "erkenntnissen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "wachstumsentscheidungen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "datenpunkten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "kundensignale",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "lagerbestand",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "marketingbudgets",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "entscheidungsintelligenz",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "class",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "subheadline",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "leitet",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "gewinnbringende",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "vorausschauende",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "bestandsoptimierung",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "lagerkosten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "out-of-stock",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "persönlichkeitsbasierte",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "kundenanalyse",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "segmentieren",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "demografie",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "kaufpersönlichkeit",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "hochwirksames",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "targeting",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "profit-treiber-identifikation",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "erfolgsanalyse",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "online-handel",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "entscheidungsstarke",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "proaktivere",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "profit-treiber",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "einzigartiges",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "entfalte",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "telefonkonferenzen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "laufende",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "kaffeemaschinen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "aufeinandertreffen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "adaptiven",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "active-noise-cancelling-technologie",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "neutralisiert",
+      "frequency_per_1k": 0.36,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "dröhnender",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "straßenkulisse",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "büro-gemurmel",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "unauffälligen",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "mühelose",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "gedeiht",
+      "frequency_per_1k": 0.24,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "klappern",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "tastatur",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "hintergrundgespräche",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "abkapselt",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "klanggetreue",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    },
+    {
+      "word": "leichten",
+      "frequency_per_1k": 0.12,
+      "distinctiveness": 11.53,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 122,
+      "per_1k_words": 8.59,
+      "ci_low": 6.74,
+      "ci_high": 10.43,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "steigern",
+        "optimieren",
+        "maximieren",
+        "Optimierung",
+        "gestaltet"
+      ]
+    },
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 91,
+      "per_1k_words": 6.41,
+      "ci_low": 5.19,
+      "ci_high": 7.67,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "mitdenkt – und",
+        "Profit – alles",
+        "Echtzeit – von",
+        "Kopfhörer – ein",
+        "Echtzeit – ob"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 59,
+      "per_1k_words": 4.15,
+      "ci_low": 1.99,
+      "ci_high": 6.39,
+      "q_value": 0.0718,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(MTTD/MTTR)",
+        "(vom letzten Monat)",
+        "(+40 %)",
+        "(+40% MoM)",
+        "(stetiges Wachstum)"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 52,
+      "per_1k_words": 3.66,
+      "ci_low": 2.66,
+      "ci_high": 4.79,
+      "q_value": 0.2313,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Pricing, Lagerbestand und Marketingbudgets",
+        "Produkte, Marketingkanäle und Kundengruppen",
+        "Vertrauen, Kontrolle und Fortschritt",
+        "wild, ungezügelt und für",
+        "Flexibilität, Weiterbildung und einen"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 26,
+      "per_1k_words": 1.83,
+      "ci_low": 1.23,
+      "ci_high": 2.52,
+      "q_value": 0.3687,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "nicht nur erhebliche operative Störungen, sondern auch ",
+        "nicht nur die Betriebssicherheit, sondern auch ",
+        "nicht nur ihr Risikoprofil fundamental verbessert, sondern auch ",
+        "nicht nur in Nutzerzahlen oder Umsatz, sondern ",
+        "nicht nur Produkte, sondern auch "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 4,
+      "per_1k_words": 0.28,
+      "ci_low": 0,
+      "ci_high": 0.66,
+      "q_value": 0.6786,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "ob das Klappern der Tastatur, Straßenlärm oder l",
+        "ob Zuhause, im Co-Working Space oder u",
+        "ob du mit oder o",
+        "ob alles reibungslos funktioniert oder o"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 3,
+      "per_1k_words": 0.21,
+      "ci_low": 0,
+      "ci_high": 0.46,
+      "q_value": 0.8407,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ". Durch d",
+        ".\n\nDurch d"
+      ]
+    },
+    {
+      "id": "colon_list_intro",
+      "label": "Doppelpunkt-Liste",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.07,
+      "ci_low": 0,
+      "ci_high": 0.22,
+      "q_value": 0.3329,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "folgende Aspekte herangezogen:"
+      ]
+    },
+    {
+      "id": "future_forward",
+      "label": "Zukunftsgewandter Schluss",
+      "severity": "high",
+      "count": 1,
+      "per_1k_words": 0.07,
+      "ci_low": 0,
+      "ci_high": 0.23,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Die Zukunft beginnt"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 4,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 86
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 1,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 89
+  },
+  "structure": {
+    "bullet_point_ratio": 0.14,
+    "bold_per_1k_words": 17.7,
+    "headers_per_1k_words": 1.7,
+    "exclamations_per_1k_words": 1.9,
+    "em_dashes_per_1k_words": 7.6,
+    "colons_per_1k_words": 22.1
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "claude-sonnet-4.6",
+    "label": "Claude Sonnet 4.6",
+    "provider": "openrouter",
+    "api_model": "anthropic/claude-sonnet-4.6",
+    "tier": "mid",
+    "family": "claude-sonnet",
+    "version": "4.6"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 15822,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.414,
+    "avg_sentence_length": 12.8,
+    "sentence_length_std_dev": 10.9
+  },
+  "radar": {
+    "tricolon_density": 3.18,
+    "hedge_density": 0,
+    "power_verb_density": 3.31,
+    "pseudo_inclusivity": 0.57,
+    "escalation_patterns": 17.790000000000003,
+    "future_filler": 0,
+    "em_dash_frequency": 23.4,
+    "formatting_density": 35.1
+  },
+  "top_words": [
+    {
+      "word": "durchleuchtet",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "exporte",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "onboarding-projekte",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "onlinehändler",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "nachfragevoraussagen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "ausverkäufe",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "saisonalität",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "warenkorbmuster",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "datenkenntnisse",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "magento",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "einführungszeiten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "soundshield",
+      "frequency_per_1k": 0.45,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "kreativwerkstatt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "cancellation",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "kaffeehausgemurmel",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "mitbewohner-geräusche",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "konzentrierst",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "aluminiumgestell",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "sechsten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "crystal-clear-call-technologie",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "soundsphere",
+      "frequency_per_1k": 0.34,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "remote-worker",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "feinde",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "hartnäckigste",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "adaptiver",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "hybrid-geräuschunterdrückung",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "audiophiler",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "ladekabel",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "protein-leder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "stundenlanges",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "faltenfreie",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "aluminium-gehäuse",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "stilsicheren",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "hintergrundrauschen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "aktiver",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "studionivaeu",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "schirmt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "kaffeemaschinen-geräusch",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "abschaltest",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "lederpolster",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "stufenlos",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "einstellbare",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "steckdose",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "verbinde",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "rechenzentrum",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "studenten-wg",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "open-source-konkurrenten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "unmöglich",
+      "frequency_per_1k": 0.23,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "galt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    },
+    {
+      "word": "szenen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.85,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 273,
+      "per_1k_words": 17.35,
+      "ci_low": 15.91,
+      "ci_high": 18.88,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "Konzerne – ohne",
+        "Sie – nicht",
+        "Ausverkäufe – und",
+        "Tag – ganz",
+        "Entscheidungen – mit"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 52,
+      "per_1k_words": 3.31,
+      "ci_low": 2.41,
+      "ci_high": 4.26,
+      "q_value": 0.0234,
+      "significant": true,
+      "direction": "below",
+      "examples": [
+        "ermöglichten",
+        "transformiert",
+        "skalierbare",
+        "Skalierbarkeit",
+        "skalieren"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 50,
+      "per_1k_words": 3.18,
+      "ci_low": 2.2,
+      "ci_high": 4.17,
+      "q_value": 0.0903,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Produkte, Kanäle und Zielgruppen",
+        "Kaufverhalten, Saisonalität und Warenkorbmuster",
+        "Straßenlärm, Kaffeehausgemurmel und Mitbewohner",
+        "innen, Forschern und Idealisten",
+        "gebaut, kontrolliert und eingesetzt"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 27,
+      "per_1k_words": 1.72,
+      "ci_low": 0.81,
+      "ci_high": 2.67,
+      "q_value": 0.6564,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "(max. 30 Zeichen)",
+        "(max. 90 Zeichen)",
+        "(oder offiziell begraben)",
+        "(kleines Budget, klare KPIs)",
+        "(50–500 MA)"
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 9,
+      "per_1k_words": 0.57,
+      "ci_low": 0.24,
+      "ci_high": 0.95,
+      "q_value": 0.6786,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "ob du konzentriert arbeitest, in Calls glänzt oder n",
+        "ob wir es bemerken oder n",
+        "ob ein Besucher zum Kunden wird – oder z",
+        "Ob Code-Reviews, Tests oder D",
+        "Ob Meetingprotokoll, Recherche oder B"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 7,
+      "per_1k_words": 0.44,
+      "ci_low": 0.12,
+      "ci_high": 0.87,
+      "q_value": 0.0573,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur Features baut, sondern ",
+        "nicht nur eine Technologie gefunden, sondern ",
+        "Nicht nur optisch, sondern ",
+        "nicht nur überzeugt – sondern ",
+        "nicht nur überzeugen, sondern "
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 3,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 87
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 0,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 90
+  },
+  "structure": {
+    "bullet_point_ratio": 0.12,
+    "bold_per_1k_words": 16.7,
+    "headers_per_1k_words": 9.1,
+    "exclamations_per_1k_words": 0.8,
+    "em_dashes_per_1k_words": 23.4,
+    "colons_per_1k_words": 16.6
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Curated AI-associated words and how often they appear across the corpus (per 1,000 words). These are known LLM tells (power words, hedges, connectors, fillers), measured in this run.",
+  "generated_at": "2026-06-05T18:55:44.042Z",
+  "words": [
+    {
+      "word": "optimieren",
+      "overuse_score": 0.35,
+      "per_model": {
+        "claude-opus-4.6": 0.12,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06,
+        "deepseek-v3.2": 0.7,
+        "deepseek-v4-pro": 0.09,
+        "gemini-3.5-flash": 0.53,
+        "gpt-5.4-mini": 0.15,
+        "gpt-5.5": 0.33,
+        "llama-4-maverick": 1.1,
+        "mistral-large-2512": 0.89,
+        "qwen3.7-max": 0.42
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "mistral-large-2512",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "nachhaltig",
+      "overuse_score": 0.33,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-opus-4.7": 0.26,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.32,
+        "deepseek-v3.2": 0.28,
+        "deepseek-v4-pro": 0.19,
+        "gemini-3.1-pro": 0.39,
+        "gemini-3.5-flash": 0.53,
+        "gpt-5.4-mini": 0.39,
+        "gpt-5.5": 0.53,
+        "llama-4-maverick": 0.63,
+        "mistral-large-2512": 0.19,
+        "qwen3.7-max": 0.66
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "llama-4-maverick",
+        "gpt-5.5"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "Innovation",
+      "overuse_score": 0.29,
+      "per_model": {
+        "claude-opus-4.6": 0.18,
+        "claude-opus-4.7": 0.06,
+        "claude-opus-4.8": 0.27,
+        "claude-sonnet-4.6": 0.13,
+        "deepseek-v3.2": 0.49,
+        "deepseek-v4-pro": 0.28,
+        "gemini-3.1-pro": 0.39,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.31,
+        "gpt-5.5": 0.27,
+        "llama-4-maverick": 0.39,
+        "mistral-large-2512": 0.51,
+        "qwen3.7-max": 0.36
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "deepseek-v3.2",
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "beschleunigen",
+      "overuse_score": 0.23,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.27,
+        "claude-sonnet-4.6": 0.06,
+        "deepseek-v3.2": 0.42,
+        "deepseek-v4-pro": 0.09,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.46,
+        "gpt-5.5": 0.2,
+        "llama-4-maverick": 0.16,
+        "mistral-large-2512": 0.51,
+        "qwen3.7-max": 0.24
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "gpt-5.4-mini",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "nahtlos",
+      "overuse_score": 0.19,
+      "per_model": {
+        "claude-opus-4.6": 0.24,
+        "claude-opus-4.7": 0.26,
+        "claude-opus-4.8": 0.27,
+        "claude-sonnet-4.6": 0.25,
+        "deepseek-v3.2": 0.14,
+        "deepseek-v4-pro": 0.09,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.23,
+        "gpt-5.5": 0.27,
+        "llama-4-maverick": 0.08,
+        "mistral-large-2512": 0.19
+      },
+      "worst_offenders": [
+        "claude-opus-4.8",
+        "gpt-5.5",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "Mehrwert",
+      "overuse_score": 0.19,
+      "per_model": {
+        "claude-opus-4.6": 0.12,
+        "claude-opus-4.8": 0.2,
+        "claude-sonnet-4.6": 0.06,
+        "deepseek-v3.2": 0.28,
+        "deepseek-v4-pro": 0.47,
+        "gemini-3.1-pro": 0.39,
+        "gpt-5.4-mini": 0.62,
+        "gpt-5.5": 0.2,
+        "llama-4-maverick": 0.16,
+        "qwen3.7-max": 0.12
+      },
+      "worst_offenders": [
+        "gpt-5.4-mini",
+        "deepseek-v4-pro",
+        "gemini-3.1-pro"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "effizient",
+      "overuse_score": 0.19,
+      "per_model": {
+        "claude-opus-4.6": 0.18,
+        "claude-opus-4.7": 0.06,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06,
+        "deepseek-v3.2": 0.07,
+        "deepseek-v4-pro": 0.19,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.23,
+        "gpt-5.5": 0.13,
+        "llama-4-maverick": 0.47,
+        "mistral-large-2512": 0.51,
+        "qwen3.7-max": 0.12
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "llama-4-maverick",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "ermöglichen",
+      "overuse_score": 0.17,
+      "per_model": {
+        "claude-opus-4.7": 0.06,
+        "claude-opus-4.8": 0.13,
+        "deepseek-v3.2": 0.14,
+        "deepseek-v4-pro": 0.28,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.08,
+        "gpt-5.5": 0.66,
+        "llama-4-maverick": 0.16,
+        "mistral-large-2512": 0.19,
+        "qwen3.7-max": 0.24
+      },
+      "worst_offenders": [
+        "gpt-5.5",
+        "deepseek-v4-pro",
+        "gemini-3.5-flash"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "zudem",
+      "overuse_score": 0.15,
+      "per_model": {
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06,
+        "deepseek-v3.2": 0.14,
+        "deepseek-v4-pro": 0.19,
+        "gpt-5.4-mini": 0.23,
+        "gpt-5.5": 0.13,
+        "llama-4-maverick": 0.08,
+        "mistral-large-2512": 0.25,
+        "qwen3.7-max": 0.42
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "mistral-large-2512",
+        "gpt-5.4-mini"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "intuitiv",
+      "overuse_score": 0.11,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-sonnet-4.6": 0.19,
+        "deepseek-v3.2": 0.21,
+        "deepseek-v4-pro": 0.28,
+        "gemini-3.5-flash": 0.26,
+        "gpt-5.4-mini": 0.15,
+        "gpt-5.5": 0.07,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.18
+      },
+      "worst_offenders": [
+        "deepseek-v4-pro",
+        "gemini-3.5-flash",
+        "deepseek-v3.2"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "potenziell",
+      "overuse_score": 0.1,
+      "per_model": {
+        "claude-opus-4.6": 0.12,
+        "claude-opus-4.7": 0.19,
+        "claude-opus-4.8": 0.07,
+        "deepseek-v4-pro": 0.09,
+        "gpt-5.4-mini": 0.31,
+        "gpt-5.5": 0.33
+      },
+      "worst_offenders": [
+        "gpt-5.5",
+        "gpt-5.4-mini",
+        "claude-opus-4.7"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "skalierbar",
+      "overuse_score": 0.1,
+      "per_model": {
+        "claude-opus-4.7": 0.06,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06,
+        "gpt-5.4-mini": 0.23,
+        "gpt-5.5": 0.2,
+        "llama-4-maverick": 0.24,
+        "mistral-large-2512": 0.19,
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "gpt-5.4-mini",
+        "gpt-5.5"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "darüber hinaus",
+      "overuse_score": 0.07,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-opus-4.7": 0.06,
+        "claude-opus-4.8": 0.13,
+        "claude-sonnet-4.6": 0.25,
+        "gpt-5.4-mini": 0.08,
+        "gpt-5.5": 0.07,
+        "llama-4-maverick": 0.08
+      },
+      "worst_offenders": [
+        "claude-sonnet-4.6",
+        "claude-opus-4.8",
+        "llama-4-maverick"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "vorantreiben",
+      "overuse_score": 0.05,
+      "per_model": {
+        "claude-opus-4.7": 0.13,
+        "claude-opus-4.8": 0.07,
+        "deepseek-v3.2": 0.14,
+        "gpt-5.4-mini": 0.08,
+        "mistral-large-2512": 0.13
+      },
+      "worst_offenders": [
+        "deepseek-v3.2",
+        "claude-opus-4.7",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "grundsätzlich",
+      "overuse_score": 0.04,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06,
+        "gpt-5.5": 0.2
+      },
+      "worst_offenders": [
+        "gpt-5.5",
+        "claude-opus-4.8",
+        "claude-sonnet-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "Am Ende des Tages",
+      "overuse_score": 0.03,
+      "per_model": {
+        "qwen3.7-max": 0.3
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "maximieren",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "deepseek-v3.2": 0.07,
+        "qwen3.7-max": 0.12
+      },
+      "worst_offenders": [
+        "qwen3.7-max",
+        "deepseek-v3.2",
+        "claude-opus-4.6"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "in puncto",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.7": 0.06,
+        "claude-sonnet-4.6": 0.06,
+        "mistral-large-2512": 0.06,
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "claude-opus-4.7",
+        "mistral-large-2512",
+        "claude-sonnet-4.6"
+      ],
+      "category": "filler"
+    },
+    {
+      "word": "zukunftssicher",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.8": 0.07,
+        "mistral-large-2512": 0.13
+      },
+      "worst_offenders": [
+        "mistral-large-2512",
+        "claude-opus-4.8"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "robust",
+      "overuse_score": 0.02,
+      "per_model": {
+        "claude-opus-4.8": 0.07,
+        "gpt-5.5": 0.13
+      },
+      "worst_offenders": [
+        "gpt-5.5",
+        "claude-opus-4.8"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "leistungsstark",
+      "overuse_score": 0.02,
+      "per_model": {
+        "deepseek-v4-pro": 0.09,
+        "gpt-5.5": 0.07,
+        "mistral-large-2512": 0.06
+      },
+      "worst_offenders": [
+        "deepseek-v4-pro",
+        "gpt-5.5",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "somit",
+      "overuse_score": 0.02,
+      "per_model": {
+        "llama-4-maverick": 0.16,
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "qwen3.7-max"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "nicht zuletzt",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.6": 0.06,
+        "claude-opus-4.7": 0.06
+      },
+      "worst_offenders": [
+        "claude-opus-4.7",
+        "claude-opus-4.6"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "maßgeschneidert",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.8": 0.07,
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "claude-opus-4.8",
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "Synergien",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.8": 0.07
+      },
+      "worst_offenders": [
+        "claude-opus-4.8"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "befähigen",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.8": 0.07,
+        "mistral-large-2512": 0.06
+      },
+      "worst_offenders": [
+        "claude-opus-4.8",
+        "mistral-large-2512"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "weitgehend",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.8": 0.07,
+        "claude-sonnet-4.6": 0.06
+      },
+      "worst_offenders": [
+        "claude-opus-4.8",
+        "claude-sonnet-4.6"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "generell",
+      "overuse_score": 0.01,
+      "per_model": {
+        "claude-opus-4.8": 0.07
+      },
+      "worst_offenders": [
+        "claude-opus-4.8"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "möglicherweise",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v3.2": 0.07
+      },
+      "worst_offenders": [
+        "deepseek-v3.2"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "ferner",
+      "overuse_score": 0.01,
+      "per_model": {
+        "deepseek-v3.2": 0.07,
+        "deepseek-v4-pro": 0.09
+      },
+      "worst_offenders": [
+        "deepseek-v4-pro",
+        "deepseek-v3.2"
+      ],
+      "category": "connector"
+    },
+    {
+      "word": "kundenzentriert",
+      "overuse_score": 0.01,
+      "per_model": {
+        "gpt-5.5": 0.07
+      },
+      "worst_offenders": [
+        "gpt-5.5"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "vermutlich",
+      "overuse_score": 0.01,
+      "per_model": {
+        "gpt-5.5": 0.07
+      },
+      "worst_offenders": [
+        "gpt-5.5"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "innovativ",
+      "overuse_score": 0.01,
+      "per_model": {
+        "llama-4-maverick": 0.08
+      },
+      "worst_offenders": [
+        "llama-4-maverick"
+      ],
+      "category": "power_word"
+    },
+    {
+      "word": "relativ",
+      "overuse_score": 0.01,
+      "per_model": {
+        "llama-4-maverick": 0.08,
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "llama-4-maverick",
+        "qwen3.7-max"
+      ],
+      "category": "hedge"
+    },
+    {
+      "word": "bahnbrechend",
+      "overuse_score": 0.01,
+      "per_model": {
+        "qwen3.7-max": 0.06
+      },
+      "worst_offenders": [
+        "qwen3.7-max"
+      ],
+      "category": "power_word"
+    }
+  ]
+}

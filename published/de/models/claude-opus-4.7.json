@@ -1,0 +1,525 @@
+{
+  "schema_version": "1.0.0",
+  "model": {
+    "id": "claude-opus-4.7",
+    "label": "Claude Opus 4.7",
+    "provider": "openrouter",
+    "api_model": "anthropic/claude-opus-4.7",
+    "tier": "frontier",
+    "family": "claude-opus",
+    "version": "4.7"
+  },
+  "analyzed_at": "2026-06-05T18:55:44.042Z",
+  "run_id": "2026-06-04_de_v1",
+  "corpus": {
+    "total_words": 15536,
+    "total_outputs": 90,
+    "unique_word_ratio": 0.434,
+    "avg_sentence_length": 13.7,
+    "sentence_length_std_dev": 10.5
+  },
+  "radar": {
+    "tricolon_density": 4.4,
+    "hedge_density": 0.06,
+    "power_verb_density": 3.88,
+    "pseudo_inclusivity": 0.26,
+    "escalation_patterns": 15.34,
+    "future_filler": 0.06,
+    "em_dash_frequency": 18.7,
+    "formatting_density": 37.8
+  },
+  "top_words": [
+    {
+      "word": "aufdeckt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "vorhersagt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "sales-",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "logistikteam",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "live-tour",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "mittelstands-shops",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "verstreute",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "lagerdaten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "klaviyo",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "excel-chaos",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "margenkiller",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "kundenpotenziale",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "verstreuten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "produktsegmente",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "logistikdaten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "vorausschauend",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "live-plattform",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "großraumbürofiliale",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "lieferdienst",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "klingelt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "familienalltag",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "klangbild",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "einfängt",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "nuancenreichtum",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "lieblings-playlist",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "teams-konferenz",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "sprachisolation",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "überstehst",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "projektwoche",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "memory",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "foam",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "premium-leder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "fokusraum",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "telefonkonferenz",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "wäschetrockner",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "vibrieren",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "anc-kopfhörer",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "intensivste",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "premium-kunstleder",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "aluminiumgehäuse",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "designwohnung",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "boutique-hotel",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "kindern",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "konzentrationszone",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "frequenzen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "säßest",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "problemlos",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "arbeitswochen",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "memory-foam-gepolsterten",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    },
+    {
+      "word": "ohrmuscheln",
+      "frequency_per_1k": 0.11,
+      "distinctiveness": 10.91,
+      "category": "other"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "em_dash_pivot",
+      "label": "Gedankenstrich-Dramatik",
+      "severity": "medium",
+      "count": 226,
+      "per_1k_words": 14.63,
+      "ci_low": 13.21,
+      "ci_high": 16.32,
+      "q_value": 0.0089,
+      "significant": true,
+      "direction": "above",
+      "examples": [
+        "ermöglicht – ganz",
+        "Datenauswertung – dank",
+        "verdoppeln – nicht",
+        "Handlungsempfehlungen – speziell",
+        "Minuten – Schluss"
+      ]
+    },
+    {
+      "id": "tricolon",
+      "label": "Trikolon (Dreierregel)",
+      "severity": "high",
+      "count": 68,
+      "per_1k_words": 4.4,
+      "ci_low": 3.37,
+      "ci_high": 5.48,
+      "q_value": 0.7823,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Produkte, Kanäle und Kundensegmente",
+        "Umsatztreiber, Margenkiller und Kundenpotenziale",
+        "Nachfrage, Lagerbestände und Customer",
+        "Forschenden, Startups und sogar",
+        "Meta, Mistral und eine"
+      ]
+    },
+    {
+      "id": "power_verb_stacking",
+      "label": "Power-Verben-Stapelung",
+      "severity": "high",
+      "count": 60,
+      "per_1k_words": 3.88,
+      "ci_low": 2.83,
+      "ci_high": 5.09,
+      "q_value": 0.0703,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "ermöglicht",
+        "skalieren",
+        "steigern",
+        "revolutioniert",
+        "skalierbar"
+      ]
+    },
+    {
+      "id": "parenthetical_aside",
+      "label": "Klammer-Einschub",
+      "severity": "low",
+      "count": 41,
+      "per_1k_words": 2.65,
+      "ci_low": 1.46,
+      "ci_high": 3.97,
+      "q_value": 0.9239,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "(max. 30 Zeichen)",
+        "(max. 90 Zeichen)",
+        "(Arbeitstitel)",
+        "(+40 % MoM)",
+        "(kürzerer Sales Cycle, planbarer)"
+      ]
+    },
+    {
+      "id": "not_just_but",
+      "label": "„Nicht-nur-sondern“-Steigerung",
+      "severity": "high",
+      "count": 11,
+      "per_1k_words": 0.71,
+      "ci_low": 0.33,
+      "ci_high": 1.16,
+      "q_value": 0.1833,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "nicht nur unsere Sicherheit massiv verbessert, sondern auch ",
+        "nicht nur unsere Sicherheitslage drastisch verbessert, sondern auch ",
+        "nicht nur „benutzt\", sondern ",
+        "nicht nur als „Datenbank, in die man Sachen reinwirft\", sondern ",
+        "nicht nur in Notebooks, sondern "
+      ]
+    },
+    {
+      "id": "whether_opener",
+      "label": "„Egal-ob“-Pseudo-Inklusivität",
+      "severity": "critical",
+      "count": 4,
+      "per_1k_words": 0.26,
+      "ci_low": 0.06,
+      "ci_high": 0.52,
+      "q_value": 0.6115,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "Ob im belebten Café, im Großraumbüro oder a",
+        "Egal ob Protokolle, Brainstormings oder L",
+        "ob du gerade deine ersten Zeilen Code schreibst oder s",
+        "Egal, ob du gerade deine ersten Zeilen Code schreibst oder s"
+      ]
+    },
+    {
+      "id": "by_gerund",
+      "label": "„Durch/Indem“-Eröffnung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.06,
+      "ci_low": 0,
+      "ci_high": 0.2,
+      "q_value": 0.3221,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        ".\n\nDurch d"
+      ]
+    },
+    {
+      "id": "landscape_world",
+      "label": "„In-der-heutigen-Welt“",
+      "severity": "critical",
+      "count": 1,
+      "per_1k_words": 0.06,
+      "ci_low": 0,
+      "ci_high": 0.25,
+      "q_value": 0.2538,
+      "significant": false,
+      "direction": "above",
+      "examples": [
+        "in einer Welt, in der"
+      ]
+    },
+    {
+      "id": "at_its_core",
+      "label": "„Im-Kern“-Anmaßung",
+      "severity": "medium",
+      "count": 1,
+      "per_1k_words": 0.06,
+      "ci_low": 0,
+      "ci_high": 0.21,
+      "q_value": 1,
+      "significant": false,
+      "direction": "below",
+      "examples": [
+        "im Kern"
+      ]
+    }
+  ],
+  "opener_distribution": {
+    "In today's/current...": 0,
+    "Imagine/Picture...": 0,
+    "When it comes to...": 0,
+    "As a/an...": 0,
+    "At [company]...": 0,
+    "We believe/understand...": 0,
+    "The [noun] is...": 0,
+    "Question opener": 0,
+    "Number/Stat opener": 0,
+    "Direct address (You...)": 0,
+    "[Noun] is/are...": 0,
+    "Gerund opener (-ing)": 0,
+    "Other": 90
+  },
+  "closer_distribution": {
+    "Future-forward": 0,
+    "Call to action": 0,
+    "Question close": 0,
+    "Together/partnership": 3,
+    "Exclamation": 0,
+    "Summary restatement": 0,
+    "Neutral": 87
+  },
+  "structure": {
+    "bullet_point_ratio": 0.19,
+    "bold_per_1k_words": 17.9,
+    "headers_per_1k_words": 5.8,
+    "exclamations_per_1k_words": 0.9,
+    "em_dashes_per_1k_words": 18.7,
+    "colons_per_1k_words": 23.6
+  }
+}
